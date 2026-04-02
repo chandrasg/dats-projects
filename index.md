@@ -48,7 +48,8 @@ Both courses count as technical and depth area electives toward the ten required
 <table class="timeline-table">
 <thead><tr><th>Milestone</th><th>Date</th></tr></thead>
 <tbody>
-{% for item in site.data.timeline.spring_2026 %}
+{% assign current_items = site.data.timeline[site.data.timeline.current_key] %}
+{% for item in current_items %}
 <tr>
 <td>{{ item.milestone }}</td>
 <td>{{ item.date }}<div class="note">{{ item.note }}</div></td>

@@ -20,7 +20,7 @@ permalink: /timeline/
 </tbody>
 </table>
 
-## Fall 2026
+## Fall 2026 *(dates to be posted by August 2026)*
 
 <table class="timeline-table">
 <thead><tr><th>Milestone</th><th>Date</th></tr></thead>
