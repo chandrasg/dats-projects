@@ -58,7 +58,7 @@ Yes. You can work as a team of 2–3 students if your faculty advisor signs off 
 <details class="faq-item">
 <summary>Can I get paid for a project I'm enrolling for Practicum/Thesis credit?</summary>
 <div class="faq-answer">
-No.
+No. You cannot receive payment for a project you are also enrolling for academic credit.
 </div>
 </details>
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+full_width: true
 ---
 
 <div class="hero">
@@ -11,6 +12,8 @@ title: Home
 <a href="{{ '/timeline/' | relative_url }}" class="btn btn-outline">View Timeline</a>
 </div>
 </div>
+
+<div class="container" markdown="1">
 
 ## Thesis vs. Practicum at a Glance
 
@@ -45,6 +48,7 @@ Both courses count as technical and depth area electives toward the ten required
 
 ## Current Semester: {{ site.data.timeline.current_semester }}
 
+<div class="table-scroll">
 <table class="timeline-table">
 <thead><tr><th>Milestone</th><th>Date</th></tr></thead>
 <tbody>
@@ -57,6 +61,7 @@ Both courses count as technical and depth area electives toward the ten required
 {% endfor %}
 </tbody>
 </table>
+</div>
 
 <a href="{{ '/timeline/' | relative_url }}">View full timeline &rarr;</a>
 
@@ -80,11 +85,13 @@ Both courses count as technical and depth area electives toward the ten required
 <h4>{{ site.data.contacts.project_director.name }}</h4>
 <div class="role">{{ site.data.contacts.project_director.title }}</div>
 <a href="mailto:{{ site.data.contacts.project_director.email }}">{{ site.data.contacts.project_director.email }}</a><br>
-<a href="{{ site.data.contacts.project_director.website }}">{{ site.data.contacts.project_director.website }}</a>
+<a href="{{ site.data.contacts.project_director.website }}">Faculty Website &rarr;</a>
 </div>
 <div class="contact-card">
 <h4>{{ site.data.contacts.program_manager.name }}</h4>
 <div class="role">{{ site.data.contacts.program_manager.title }}</div>
 <a href="mailto:{{ site.data.contacts.program_manager.email }}">{{ site.data.contacts.program_manager.email }}</a>
 </div>
+</div>
+
 </div>

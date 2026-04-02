@@ -8,6 +8,7 @@ permalink: /timeline/
 
 ## {{ site.data.timeline.current_semester }}
 
+<div class="table-scroll">
 <table class="timeline-table">
 <thead><tr><th>Milestone</th><th>Date</th></tr></thead>
 <tbody>
@@ -19,9 +20,11 @@ permalink: /timeline/
 {% endfor %}
 </tbody>
 </table>
+</div>
 
 ## Fall 2026 *(dates to be posted by August 2026)*
 
+<div class="table-scroll">
 <table class="timeline-table">
 <thead><tr><th>Milestone</th><th>Date</th></tr></thead>
 <tbody>
@@ -33,6 +36,7 @@ permalink: /timeline/
 {% endfor %}
 </tbody>
 </table>
+</div>
 
 ## What to Expect at Each Milestone
 

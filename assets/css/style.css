@@ -14,7 +14,7 @@
   --bg-alt: #f7f8fa;
   --border: #e2e5ea;
   --radius: 6px;
-  --max-width: 820px;
+  --max-width: 860px;
   --header-height: 64px;
 }
 
@@ -34,9 +34,34 @@ body {
 a { color: var(--penn-navy); text-decoration: none; }
 a:hover { color: var(--penn-red); }
 
+/* --- Focus styles (keyboard navigation) --- */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--penn-red);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 img { max-width: 100%; height: auto; }
 
 .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
+
+/* --- Skip link (accessibility) --- */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: var(--penn-navy);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0 var(--radius) var(--radius);
+  font-weight: 600;
+  font-size: 0.9rem;
+  z-index: 200;
+  transition: top 0.1s;
+}
+.skip-link:focus { top: 0; color: #fff; }
 
 /* --- Header --- */
 .site-header {
@@ -55,7 +80,7 @@ img { max-width: 100%; height: auto; }
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 1100px;
+  max-width: 960px;
 }
 
 .site-title {
@@ -190,10 +215,12 @@ li { margin-bottom: 0.35rem; }
 .proposal-items div { margin-bottom: 0.35rem; }
 
 /* --- Timeline Table --- */
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .timeline-table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
+  min-width: 480px;
 }
 .timeline-table th {
   background: var(--penn-navy);
@@ -287,7 +314,7 @@ details.faq-item summary::-webkit-details-marker { display: none; }
   padding: 2.5rem 0 1.5rem;
   margin-top: 3rem;
 }
-.site-footer .container { max-width: 1100px; }
+.site-footer .container { max-width: 960px; }
 .site-footer a { color: rgba(255,255,255,0.9); }
 .site-footer a:hover { color: #fff; }
 .site-footer h4 { color: #fff; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
@@ -303,6 +330,14 @@ details.faq-item summary::-webkit-details-marker { display: none; }
   .hero h1 { font-size: 1.7rem; }
   h1 { font-size: 1.6rem; }
   h2 { font-size: 1.3rem; }
+
+  /* Hero CTAs stack as blocks on mobile */
+  .hero .btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .btn-outline { margin-left: auto; margin-top: 0.75rem; }
 
   .nav-toggle {
     display: flex;
@@ -321,6 +356,7 @@ details.faq-item summary::-webkit-details-marker { display: none; }
     border-radius: 1px;
   }
 
+  /* Mobile nav with larger touch targets */
   .site-nav {
     display: none;
     position: absolute;
@@ -333,8 +369,12 @@ details.faq-item summary::-webkit-details-marker { display: none; }
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   }
   .nav-open .site-nav { display: flex; }
-
-  .btn-outline { margin-left: 0; margin-top: 0.5rem; }
+  .site-nav a {
+    padding: 0.75rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
 
   .timeline-table { font-size: 0.85rem; }
   .timeline-table th, .timeline-table td { padding: 0.5rem 0.6rem; }
@@ -342,5 +382,5 @@ details.faq-item summary::-webkit-details-marker { display: none; }
 
 @media (max-width: 480px) {
   .container { padding: 0 1rem; }
-  .steps li { padding-left: 2.5rem; }
+  .steps > li { padding-left: 2.5rem; }
 }
