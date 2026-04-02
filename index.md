@@ -62,14 +62,14 @@ Both courses count as technical and depth area electives toward the ten required
 ## Quick Links
 
 <div class="compare-grid">
-<a href="https://forms.gle/fYeA2nXtkgzqLpio6" target="_blank" class="resource-card">
-<h4>Project/Thesis Submission Form &rarr;</h4>
+<div class="resource-card">
+<h4><a href="https://forms.gle/fYeA2nXtkgzqLpio6" target="_blank">Project/Thesis Submission Form &rarr;</a></h4>
 <p>Submit your project details and proposal</p>
-</a>
-<a href="https://drive.google.com/file/d/19d3zkQQ5TE014Onx_T0yOSQOgVGeGfKO/view" target="_blank" class="resource-card">
-<h4>Advisor Agreement Form &rarr;</h4>
+</div>
+<div class="resource-card">
+<h4><a href="https://drive.google.com/file/d/19d3zkQQ5TE014Onx_T0yOSQOgVGeGfKO/view" target="_blank">Advisor Agreement Form &rarr;</a></h4>
 <p>Download, get signed by your advisor, and upload</p>
-</a>
+</div>
 </div>
 
 ## Contact

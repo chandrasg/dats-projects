@@ -51,6 +51,3 @@ Submit your completed, signed thesis electronically to [grad-affairs@seas.upenn.
 ### 5. DATS Presentation Day
 Thesis students give 5-minute talks. Practicum students present posters. All students upload their presentations/posters to the shared Google Drive folder before the event.
 
-<div class="info-box">
-<strong>How to update this page:</strong> Dates are stored in <code>_data/timeline.yml</code>. Edit that file on GitHub to update dates each semester — no HTML knowledge needed.
-</div>
