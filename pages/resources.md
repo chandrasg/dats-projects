@@ -63,5 +63,50 @@ permalink: /resources/
 
 <div class="resource-card">
 <h4><a href="https://cets.seas.upenn.edu/answers/posters.html" target="_blank">CETS Poster Printing &rarr;</a></h4>
-<p>Poster printing service for practicum presentations. Budget code: 130-1303-1-000000-5264-4323-3968</p>
+<p>Poster printing service for practicum presentations. Contact <a href="mailto:{{ site.data.contacts.program_manager.email }}">{{ site.data.contacts.program_manager.name }}</a> for the budget code.</p>
+</div>
+
+## Scoping & Executing Your Project
+
+Resources from peer programs at other universities — vetted for direct relevance to defining a research question, working with your advisor, and seeing the project through to completion.
+
+### Defining Your Scope
+
+<div class="resource-card">
+<h4><a href="https://mcds-cmu.github.io/11634/s24/syllabus/" target="_blank">CMU MCDS Capstone Planning Seminar (11-634) &rarr;</a></h4>
+<p>Shows how to write a Vision Document with research questions, general and testable hypotheses, and a work breakdown structure. The most structured public guide to scoping a research project before execution begins.</p>
+</div>
+
+<div class="resource-card">
+<h4><a href="https://mitcommlab.mit.edu/eecs/commkit/thesis-proposal/" target="_blank">MIT EECS: How to Write a Thesis Proposal &rarr;</a></h4>
+<p>Introduces the Heilmeier Catechism — a set of questions (What problem? Why now? What's new? What's the risk?) that sharpen any research proposal. Includes annotated MEng proposal examples.</p>
+</div>
+
+<div class="resource-card">
+<h4><a href="https://masterdatascience.ubc.ca/employers/capstone-project" target="_blank">UBC MDS: What Makes a Good Capstone Project &rarr;</a></h4>
+<p>Unusually direct: lists criteria for a well-scoped project alongside explicit anti-patterns (avoid projects that are just data cleaning, database setup, or a pre-specified algorithm with no research component).</p>
+</div>
+
+### Executing & Staying on Track
+
+<div class="resource-card">
+<h4><a href="https://mcds-cmu.github.io/11632/f24/syllabus/" target="_blank">CMU MCDS Capstone Execution Syllabus (11-632) &rarr;</a></h4>
+<p>A week-by-week breakdown of a two-semester capstone: bi-weekly advisor feedback cycles, draft milestones, peer review, GitHub repo standards, and final deliverables. Useful for understanding what consistent progress looks like.</p>
+</div>
+
+<div class="resource-card">
+<h4><a href="https://gradschool.cornell.edu/academic-progress/opportunities-resources-support/advising-guide-for-research-students-2025/" target="_blank">Cornell: Advising Guide for Research Students &rarr;</a></h4>
+<p>Covers how to structure the advisor relationship, write an Individual Development Plan with milestones, and conduct regular progress reviews. Applicable across all graduate research disciplines.</p>
+</div>
+
+### Writing & Presenting
+
+<div class="resource-card">
+<h4><a href="https://homes.cs.washington.edu/~mernst/advice/" target="_blank">UW: Advice for CS Researchers (Michael Ernst) &rarr;</a></h4>
+<p>A well-maintained collection of links on writing papers, writing progress reports, making presentations, and working with advisors — curated by a senior UW CS faculty member.</p>
+</div>
+
+<div class="resource-card">
+<h4><a href="http://www.cs.cmu.edu/~mleone/how-to.html" target="_blank">CMU: Research and Writing Advice Compilation &rarr;</a></h4>
+<p>Aggregated links to thesis writing, abstract writing, research survival guides, and dissertation completion — including the classic "How to do Research in the MIT AI Lab."</p>
 </div>
