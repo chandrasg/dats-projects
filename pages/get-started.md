@@ -55,9 +55,9 @@ Present your proposal to <a href="mailto:{{ site.data.contacts.project_director.
 
 Not sure which is right for you? Here's how to think about it:
 
-**Choose Thesis (DATS 9990) if** you want to lead an entire research project from start to finish, your work could result in a peer-reviewed publication, and you're ready for a two-semester commitment with a SEAS Standing Faculty advisor.
+**Choose Thesis (DATS 9990) if** you want to lead an entire research project from start to finish, your work could result in a peer-reviewed publication, and you're ready for a two-semester commitment.
 
-**Choose Practicum (DATS 5990) if** you want to contribute meaningfully to a research project (potentially as part of a larger team), you prefer a shorter engagement (one semester, one CU), or your advisor is outside SEAS. Industry-based projects are also an option here, as long as they produce an academically evaluable product.
+**Choose Practicum (DATS 5990) if** you want to contribute meaningfully to a research project (potentially as part of a larger team) or prefer a shorter engagement (one semester, one CU). Industry-based projects are also an option here, as long as they produce an academically evaluable product.
 
 ## Wharton Analytics Accelerator
 

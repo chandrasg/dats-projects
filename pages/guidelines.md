@@ -33,7 +33,7 @@ Practicum students present posters at the DATS Presentation Day.
 - Orientation: Landscape
 - Easels and poster board/clips will be provided on the day
 - Printing: [CETS Poster Printing](https://cets.seas.upenn.edu/answers/posters.html)
-- Budget code for printing: `130-1303-1-000000-5264-4323-3968`
+- Contact the Program Manager for the budget code
 
 ---
 
@@ -43,7 +43,7 @@ Practicum students present posters at the DATS Presentation Day.
 A thesis requires two course units: 1 CU per semester over two consecutive semesters. You will receive a letter grade each semester and must submit deliverables (report and presentation/poster) at the end of each semester.
 
 ### Advisor Requirements
-Your advisor must be Standing Faculty in SEAS. You will also need a separate reader who is Standing Faculty (may be outside SEAS) to read the final thesis.
+Any Penn faculty member can serve as your advisor. You will also need a separate reader who is Penn faculty to read the final thesis.
 
 ### First Semester (Interim)
 During your first semester, submit an interim report covering the project description, background/related work, and any preliminary results.

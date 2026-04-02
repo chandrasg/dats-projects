@@ -33,10 +33,10 @@ title: Home
 <p>A deeper research endeavor where you lead all aspects of a project — problem formulation, materials, methods, results, and interpretation — with the goal of answering a research question that could result in a peer-reviewed publication.</p>
 <ul>
 <li><strong>Credits:</strong> 2 CU (1 CU per semester, two semesters)</li>
-<li><strong>Advisor:</strong> SEAS Standing Faculty required</li>
+<li><strong>Advisor:</strong> Any Penn faculty member</li>
 <li><strong>Report:</strong> Full thesis (SEAS format)</li>
 <li><strong>Presentation:</strong> 5-minute talk</li>
-<li><strong>Reader:</strong> Additional Standing Faculty reader required</li>
+<li><strong>Reader:</strong> Additional Penn faculty reader required</li>
 </ul>
 </div>
 </div>
