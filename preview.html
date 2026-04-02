@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DATS Practicum & Thesis — Penn Data Science MSE</title>
+  <meta name="description" content="Everything you need to know about pursuing independent research through DATS 5990 (Practicum) or DATS 9990 (Thesis) in Penn's Data Science MSE program.">
+  <style>
+    /* ============================================
+       DATS Practicum & Thesis — Stylesheet
+       Penn hybrid theme: modern + subtle Penn colors
+       ============================================ */
+
+    /* --- Variables --- */
+    :root {
+      --penn-navy: #011F5B;
+      --penn-red: #990000;
+      --penn-red-light: #b81a1a;
+      --text: #2d2d2d;
+      --text-light: #555;
+      --bg: #ffffff;
+      --bg-alt: #f7f8fa;
+      --border: #e2e5ea;
+      --radius: 6px;
+      --max-width: 820px;
+      --header-height: 64px;
+    }
+
+    /* --- Reset & Base --- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-height) + 1rem); }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    a { color: var(--penn-navy); text-decoration: none; }
+    a:hover { color: var(--penn-red); }
+
+    img { max-width: 100%; height: auto; }
+
+    .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
+
+    /* --- Header --- */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--penn-navy);
+      height: var(--header-height);
+      display: flex;
+      align-items: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .site-title {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+      text-decoration: none;
+    }
+    .site-title:hover { color: #fff; opacity: 0.9; }
+    .site-title-main { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.01em; }
+    .site-title-sub { font-size: 0.75rem; opacity: 0.7; font-weight: 400; }
+
+    .site-nav { display: flex; gap: 0.25rem; }
+    .site-nav a {
+      color: rgba(255,255,255,0.8);
+      padding: 0.4rem 0.75rem;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: background 0.15s, color 0.15s;
+    }
+    .site-nav a:hover,
+    .site-nav a.active {
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+    }
+
+    .nav-toggle { display: none; }
+
+    /* --- Main Content --- */
+    .content { padding: 2.5rem 0 4rem; }
+
+    /* --- Typography --- */
+    h1, h2, h3, h4 { color: var(--penn-navy); line-height: 1.3; }
+    h1 { font-size: 2rem; margin-bottom: 1rem; font-weight: 800; }
+    h2 { font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 0.75rem; font-weight: 700; }
+    h3 { font-size: 1.15rem; margin-top: 1.75rem; margin-bottom: 0.5rem; font-weight: 600; }
+    h4 { font-size: 1rem; margin-top: 1.25rem; margin-bottom: 0.4rem; font-weight: 600; }
+
+    p { margin-bottom: 1rem; }
+    ul, ol { margin-bottom: 1rem; padding-left: 1.5rem; }
+    li { margin-bottom: 0.35rem; }
+
+    /* --- Hero --- */
+    .hero {
+      background: linear-gradient(135deg, var(--penn-navy) 0%, #0a3a8a 100%);
+      color: #fff;
+      padding: 3rem 0;
+      margin: -2.5rem 0 2.5rem;
+      text-align: center;
+    }
+    .hero .container { max-width: 700px; }
+    .hero h1 { color: #fff; font-size: 2.2rem; margin-bottom: 0.75rem; }
+    .hero p { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-bottom: 1.5rem; }
+
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background: var(--penn-red);
+      color: #fff;
+      border-radius: var(--radius);
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: background 0.15s;
+      text-decoration: none;
+    }
+    .btn:hover { background: var(--penn-red-light); color: #fff; }
+
+    .btn-outline {
+      background: transparent;
+      border: 2px solid rgba(255,255,255,0.5);
+      margin-left: 0.75rem;
+    }
+    .btn-outline:hover { border-color: #fff; background: rgba(255,255,255,0.1); }
+
+    /* --- Comparison Cards --- */
+    .compare-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .compare-card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      border-top: 3px solid var(--penn-navy);
+    }
+    .compare-card h3 {
+      margin-top: 0;
+      font-size: 1.1rem;
+      color: var(--penn-navy);
+    }
+    .compare-card .tag {
+      display: inline-block;
+      background: var(--penn-navy);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      margin-bottom: 0.75rem;
+    }
+
+    /* --- Steps --- */
+    .steps { counter-reset: step; list-style: none; padding-left: 0; }
+    .steps li {
+      counter-increment: step;
+      position: relative;
+      padding-left: 3rem;
+      margin-bottom: 1.5rem;
+    }
+    .steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--penn-navy);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    /* --- Timeline Table --- */
+    .timeline-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+    }
+    .timeline-table th {
+      background: var(--penn-navy);
+      color: #fff;
+      text-align: left;
+      padding: 0.75rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .timeline-table td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .timeline-table tr:nth-child(even) { background: var(--bg-alt); }
+    .timeline-table .note { font-size: 0.85rem; color: var(--text-light); margin-top: 0.25rem; }
+
+    /* --- FAQ --- */
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+
+    details.faq-item summary {
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      color: var(--penn-navy);
+    }
+    details.faq-item summary::before {
+      content: "▸";
+      display: inline-block;
+      transition: transform 0.2s;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+    details.faq-item[open] summary::before { transform: rotate(90deg); }
+    details.faq-item summary::-webkit-details-marker { display: none; }
+
+    .faq-answer { padding: 0.75rem 0 0 1.5rem; color: var(--text); }
+
+    /* --- Info Box --- */
+    .info-box {
+      background: var(--bg-alt);
+      border-left: 4px solid var(--penn-navy);
+      padding: 1rem 1.25rem;
+      border-radius: 0 var(--radius) var(--radius) 0;
+      margin: 1.5rem 0;
+    }
+    .info-box.warning { border-left-color: var(--penn-red); }
+
+    /* --- Resource Links --- */
+    .resource-card {
+      display: block;
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .resource-card:hover {
+      border-color: var(--penn-navy);
+      box-shadow: 0 2px 8px rgba(1,31,91,0.08);
+      color: var(--text);
+    }
+    .resource-card h4 { margin: 0 0 0.25rem; color: var(--penn-navy); }
+    .resource-card p { margin: 0; color: var(--text-light); font-size: 0.9rem; }
+
+    /* --- Contact Cards --- */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    .contact-card {
+      background: var(--bg-alt);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      border: 1px solid var(--border);
+    }
+    .contact-card h4 { margin: 0 0 0.25rem; }
+    .contact-card .role { color: var(--text-light); font-size: 0.9rem; margin-bottom: 0.5rem; }
+
+    /* --- Footer --- */
+    .site-footer {
+      background: var(--penn-navy);
+      color: rgba(255,255,255,0.8);
+      padding: 2.5rem 0 1.5rem;
+      margin-top: 3rem;
+    }
+    .site-footer .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+    .site-footer a { color: rgba(255,255,255,0.9); }
+    .site-footer a:hover { color: #fff; }
+    .site-footer h4 { color: #fff; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+    .site-footer p { font-size: 0.9rem; line-height: 1.6; }
+
+    .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.15); padding-top: 1rem; font-size: 0.8rem; opacity: 0.6; }
+
+    /* --- Responsive --- */
+    @media (max-width: 768px) {
+      .compare-grid, .contact-grid, .footer-grid { grid-template-columns: 1fr; }
+      .hero { padding: 2rem 0; }
+      .hero h1 { font-size: 1.7rem; }
+      h1 { font-size: 1.6rem; }
+      h2 { font-size: 1.3rem; }
+
+      .nav-toggle {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0.5rem;
+      }
+      .nav-toggle span {
+        display: block;
+        width: 22px;
+        height: 2px;
+        background: #fff;
+        border-radius: 1px;
+      }
+
+      .site-nav {
+        display: none;
+        position: absolute;
+        top: var(--header-height);
+        left: 0;
+        right: 0;
+        background: var(--penn-navy);
+        flex-direction: column;
+        padding: 0.5rem 1rem 1rem;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      }
+      .nav-open .site-nav { display: flex; }
+
+      .btn-outline { margin-left: 0; margin-top: 0.5rem; }
+
+      .timeline-table { font-size: 0.85rem; }
+      .timeline-table th, .timeline-table td { padding: 0.5rem 0.6rem; }
+    }
+
+    @media (max-width: 480px) {
+      .container { padding: 0 1rem; }
+      .steps li { padding-left: 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="site-title">
+        <span class="site-title-main">DATS Practicum & Thesis</span>
+        <span class="site-title-sub">Penn Data Science MSE</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.parentElement.parentElement.classList.toggle('nav-open')">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="#" class="active">Home</a>
+        <a href="#">Get Started</a>
+        <a href="#">Guidelines</a>
+        <a href="#">Timeline</a>
+        <a href="#">FAQ</a>
+        <a href="#">Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="container">
+      <div class="hero">
+        <div class="container">
+          <h1>DATS Practicum & Thesis</h1>
+          <p>Everything you need to know about pursuing independent research through DATS 5990 (Practicum) or DATS 9990 (Thesis) in Penn's Data Science MSE program.</p>
+          <a href="#" class="btn">Get Started</a>
+          <a href="#" class="btn btn-outline">View Timeline</a>
+        </div>
+      </div>
+
+      <h2>Thesis vs. Practicum at a Glance</h2>
+
+      <div class="compare-grid">
+        <div class="compare-card">
+          <span class="tag">DATS 5990</span>
+          <h3>Practicum</h3>
+          <p>An independent study where you lead one or more parts of a research project. Your contribution is similar to that of a co-author on a publication — you lead a distinct piece of the work within a larger collaborative effort.</p>
+          <ul>
+            <li><strong>Credits:</strong> 1 CU (2 CU possible with approval)</li>
+            <li><strong>Advisor:</strong> Any Penn faculty member</li>
+            <li><strong>Report:</strong> 5–10 pages</li>
+            <li><strong>Presentation:</strong> Poster session</li>
+            <li><strong>Industry projects:</strong> Allowed with academic product</li>
+          </ul>
+        </div>
+        <div class="compare-card">
+          <span class="tag">DATS 9990</span>
+          <h3>Thesis</h3>
+          <p>A deeper research endeavor where you lead all aspects of a project — problem formulation, materials, methods, results, and interpretation — with the goal of answering a research question that could result in a peer-reviewed publication.</p>
+          <ul>
+            <li><strong>Credits:</strong> 2 CU (1 CU per semester, two semesters)</li>
+            <li><strong>Advisor:</strong> SEAS Standing Faculty required</li>
+            <li><strong>Report:</strong> Full thesis (SEAS format)</li>
+            <li><strong>Presentation:</strong> 5-minute talk</li>
+            <li><strong>Reader:</strong> Additional Standing Faculty reader required</li>
+          </ul>
+        </div>
+      </div>
+
+      <p>Both courses count as technical and depth area electives toward the ten required credits for the MSE degree.</p>
+
+      <h2>Current Semester: Spring 2026</h2>
+
+      <table class="timeline-table">
+        <thead>
+          <tr>
+            <th>Milestone</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Submit project/thesis form & advisor agreement</td>
+            <td>By January 22, 2026<div class="note">January 27th is the last day to add a course and last day to drop for full refund.</div></td>
+          </tr>
+          <tr>
+            <td>Mid-term check-in with advisor & project director</td>
+            <td>By February 23, 2026<div class="note">Brief PowerPoint, progress demo, or report outline. February 23rd is the last day to drop for 50% refund.</div></td>
+          </tr>
+          <tr>
+            <td>Final check-in with advisor & project director</td>
+            <td>Before March 30, 2026<div class="note">Project report due. March 30th is the last day to withdraw from a course.</div></td>
+          </tr>
+          <tr>
+            <td>Thesis submission deadline</td>
+            <td>TBD<div class="note">Submit completed/signed thesis electronically to grad-affairs@seas.upenn.edu.</div></td>
+          </tr>
+          <tr>
+            <td>DATS Presentation Day</td>
+            <td>TBD<div class="note">Thesis talks (5 min) and practicum poster session. Details announced closer to the date.</div></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><a href="#">View full timeline →</a></p>
+
+      <h2>Quick Links</h2>
+
+      <div class="compare-grid">
+        <a href="https://forms.gle/fYeA2nXtkgzqLpio6" target="_blank" class="resource-card">
+          <h4>Project/Thesis Submission Form →</h4>
+          <p>Submit your project details and proposal</p>
+        </a>
+        <a href="https://drive.google.com/file/d/19d3zkQQ5TE014Onx_T0yOSQOgVGeGfKO/view" target="_blank" class="resource-card">
+          <h4>Advisor Agreement Form →</h4>
+          <p>Download, get signed by your advisor, and upload</p>
+        </a>
+      </div>
+
+      <h2>Contact</h2>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h4>Sharath Chandra Guntuku</h4>
+          <div class="role">Faculty Project Director</div>
+          <a href="mailto:sharathg@seas.upenn.edu">sharathg@seas.upenn.edu</a><br>
+          <a href="https://sharathg.cis.upenn.edu/">https://sharathg.cis.upenn.edu/</a>
+        </div>
+        <div class="contact-card">
+          <h4>Staci Kaplan</h4>
+          <div class="role">Program Manager</div>
+          <a href="mailto:stacilk@seas.upenn.edu">stacilk@seas.upenn.edu</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>
+            <strong>Sharath Chandra Guntuku</strong><br>
+            Faculty Project Director<br>
+            <a href="mailto:sharathg@seas.upenn.edu">sharathg@seas.upenn.edu</a>
+          </p>
+          <p>
+            <strong>Staci Kaplan</strong><br>
+            Program Manager<br>
+            <a href="mailto:stacilk@seas.upenn.edu">stacilk@seas.upenn.edu</a>
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Program</h4>
+          <p>
+            Data Science (MSE)<br>
+            School of Engineering & Applied Science<br>
+            University of Pennsylvania<br>
+            220 South 33rd Street<br>
+            Philadelphia, PA 19104
+          </p>
+          <p><a href="mailto:datsmast@seas.upenn.edu">datsmast@seas.upenn.edu</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 University of Pennsylvania — DATS Program</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

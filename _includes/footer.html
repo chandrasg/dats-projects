@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>
+          <strong>{{ site.data.contacts.project_director.name }}</strong><br>
+          {{ site.data.contacts.project_director.title }}<br>
+          <a href="mailto:{{ site.data.contacts.project_director.email }}">{{ site.data.contacts.project_director.email }}</a>
+        </p>
+        <p>
+          <strong>{{ site.data.contacts.program_manager.name }}</strong><br>
+          {{ site.data.contacts.program_manager.title }}<br>
+          <a href="mailto:{{ site.data.contacts.program_manager.email }}">{{ site.data.contacts.program_manager.email }}</a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Program</h4>
+        <p>
+          Data Science (MSE)<br>
+          School of Engineering & Applied Science<br>
+          University of Pennsylvania<br>
+          220 South 33rd Street<br>
+          Philadelphia, PA 19104
+        </p>
+        <p><a href="mailto:{{ site.data.contacts.program_email }}">{{ site.data.contacts.program_email }}</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: '%Y' }} University of Pennsylvania — DATS Program</p>
+    </div>
+  </div>
+</footer>

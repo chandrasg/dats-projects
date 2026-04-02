@@ -1,0 +1,29 @@
+title: DATS Practicum & Thesis
+description: Guide for Penn Data Science MSE students pursuing DATS 5990 (Practicum) or DATS 9990 (Thesis)
+baseurl: "/dats-projects"
+url: "https://chandrasg.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - SPECS.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

@@ -1,0 +1,38 @@
+# Update this file each semester with new dates.
+# Edit directly on GitHub: click the pencil icon, change dates, commit.
+
+current_semester: "Spring 2026"
+
+spring_2026:
+  - milestone: "Submit project/thesis form & advisor agreement"
+    date: "By January 22, 2026"
+    note: "January 27th is the last day to add a course and last day to drop for full refund."
+  - milestone: "Mid-term check-in with advisor & project director"
+    date: "By February 23, 2026"
+    note: "Brief PowerPoint, progress demo, or report outline. February 23rd is the last day to drop for 50% refund."
+  - milestone: "Final check-in with advisor & project director"
+    date: "Before March 30, 2026"
+    note: "Project report due. March 30th is the last day to withdraw from a course."
+  - milestone: "Thesis submission deadline"
+    date: "TBD"
+    note: "Submit completed/signed thesis electronically to grad-affairs@seas.upenn.edu."
+  - milestone: "DATS Presentation Day"
+    date: "TBD"
+    note: "Thesis talks (5 min) and practicum poster session. Details announced closer to the date."
+
+fall_2026:
+  - milestone: "Submit project/thesis form & advisor agreement"
+    date: "By September TBD, 2026"
+    note: "Aim to submit before the add/drop deadline."
+  - milestone: "Mid-term check-in with advisor & project director"
+    date: "By October TBD, 2026"
+    note: "Brief PowerPoint, progress demo, or report outline."
+  - milestone: "Final check-in with advisor & project director"
+    date: "Before November TBD, 2026"
+    note: "Project report due."
+  - milestone: "Thesis submission deadline"
+    date: "December TBD, 2026"
+    note: "Submit completed/signed thesis electronically to grad-affairs@seas.upenn.edu."
+  - milestone: "DATS Presentation Day"
+    date: "December TBD, 2026"
+    note: "Thesis talks 10:30–11:30 AM, Lunch, Practicum posters 12–1:30 PM."

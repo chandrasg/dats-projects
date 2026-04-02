@@ -1,0 +1,14 @@
+# Update contact info here as needed.
+
+project_director:
+  name: "Sharath Chandra Guntuku"
+  title: "Faculty Project Director"
+  email: "sharathg@seas.upenn.edu"
+  website: "https://sharathg.cis.upenn.edu/"
+
+program_manager:
+  name: "Staci Kaplan"
+  title: "Program Manager"
+  email: "stacilk@seas.upenn.edu"
+
+program_email: "datsmast@seas.upenn.edu"
