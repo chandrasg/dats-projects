@@ -164,13 +164,13 @@ li { margin-bottom: 0.35rem; }
 
 /* --- Steps --- */
 .steps { counter-reset: step; list-style: none; padding-left: 0; }
-.steps li {
+.steps > li {
   counter-increment: step;
   position: relative;
   padding-left: 3rem;
   margin-bottom: 1.5rem;
 }
-.steps li::before {
+.steps > li::before {
   content: counter(step);
   position: absolute;
   left: 0;
@@ -186,6 +186,9 @@ li { margin-bottom: 0.35rem; }
   font-weight: 700;
   font-size: 0.85rem;
 }
+.steps li ul { margin-top: 0.5rem; padding-left: 1.25rem; list-style: disc; }
+.steps li ul li { counter-increment: none; padding-left: 0; margin-bottom: 0.25rem; }
+.steps li ul li::before { display: none; }
 
 /* --- Timeline Table --- */
 .timeline-table {

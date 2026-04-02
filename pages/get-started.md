@@ -11,7 +11,8 @@ Follow these steps to enroll in DATS 5990 (Practicum) or DATS 9990 (Thesis).
 ## Before You Begin
 
 <div class="info-box">
-Students typically pursue a thesis or practicum in their 2nd year (2nd or 3rd semester). You should complete at least one elective course in your project's application domain before starting. Before writing your proposal, read 2–3 past reports from the <a href="{{ '/resources/' | relative_url }}">Resources page</a> — they're the best way to calibrate what a realistic scope looks like.
+Students typically pursue a thesis or practicum in their 2nd year (2nd or 3rd semester). You should complete at least one elective course in your project's application domain before starting.<br><br>
+<strong>Start one semester early.</strong> Begin thinking about your project area and identifying potential advisors the semester before you plan to enroll. This gives you enough time to explore options, have early conversations with faculty, and scope the project well before the add/drop deadline. Before writing your proposal, read 2–3 past reports from the <a href="{{ '/resources/' | relative_url }}">Resources page</a> — they're the best way to calibrate what a realistic scope looks like.
 </div>
 
 ## Enrollment Steps
@@ -27,8 +28,8 @@ Discuss the topic and scope with your advisor. Identify the research questions y
 </li>
 <li>
 <strong>Prepare your proposal</strong><br>
-Write a 2-page project proposal. A strong proposal covers five things:
-<ul>
+Write a 2-page project proposal. A strong proposal covers:
+<ul style="list-style-type: disc;">
 <li><strong>Problem statement:</strong> What question are you answering, and why does it matter?</li>
 <li><strong>Background:</strong> What already exists, and where is the gap?</li>
 <li><strong>Your approach:</strong> What will you do, and what is your specific role?</li>
@@ -56,7 +57,7 @@ Before or shortly after the add/drop deadline, share your proposal with <a href=
 </ol>
 
 <div class="info-box warning">
-<strong>Timing matters.</strong> Aim to complete steps 1–6 <strong>before</strong> the add/drop deadline. Check the <a href="{{ '/timeline/' | relative_url }}">Timeline</a> for current semester dates.
+<strong>Timing matters.</strong> Ideally, submit your form and advisor agreement at the <strong>start of the semester</strong>. The add/drop deadline is the absolute last date — not the target. Check the <a href="{{ '/timeline/' | relative_url }}">Timeline</a> for current semester dates.
 </div>
 
 ## What Makes a Good Project
