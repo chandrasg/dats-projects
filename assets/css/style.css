@@ -186,9 +186,8 @@ li { margin-bottom: 0.35rem; }
   font-weight: 700;
   font-size: 0.85rem;
 }
-.steps li ul { margin-top: 0.5rem; padding-left: 1.25rem; list-style: disc; }
-.steps li ul li { counter-increment: none; padding-left: 0; margin-bottom: 0.25rem; }
-.steps li ul li::before { display: none; }
+.proposal-items { margin-top: 0.5rem; padding-left: 0.25rem; }
+.proposal-items div { margin-bottom: 0.35rem; }
 
 /* --- Timeline Table --- */
 .timeline-table {

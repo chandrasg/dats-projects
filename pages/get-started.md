@@ -29,13 +29,13 @@ Discuss the topic and scope with your advisor. Identify the research questions y
 <li>
 <strong>Prepare your proposal</strong><br>
 Write a 2-page project proposal. A strong proposal covers:
-<ul style="list-style-type: disc;">
-<li><strong>Problem statement:</strong> What question are you answering, and why does it matter?</li>
-<li><strong>Background:</strong> What already exists, and where is the gap?</li>
-<li><strong>Your approach:</strong> What will you do, and what is your specific role?</li>
-<li><strong>Success criteria:</strong> How will you know the project succeeded?</li>
-<li><strong>Timeline:</strong> Key milestones mapped to the semester calendar.</li>
-</ul>
+<div class="proposal-items">
+<div>&#8226; <strong>Problem statement:</strong> What question are you answering, and why does it matter?</div>
+<div>&#8226; <strong>Background:</strong> What already exists, and where is the gap?</div>
+<div>&#8226; <strong>Your approach:</strong> What will you do, and what is your specific role?</div>
+<div>&#8226; <strong>Success criteria:</strong> How will you know the project succeeded?</div>
+<div>&#8226; <strong>Timeline:</strong> Key milestones mapped to the semester calendar.</div>
+</div>
 The proposal doesn't need to be final — it's a planning tool and a scope agreement between you and your advisor.
 </li>
 <li>
