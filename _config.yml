@@ -14,16 +14,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Collections
-collections:
-  pages:
-    output: true
-    permalink: /:name/
-
-# Defaults
-defaults:
-  - scope:
-      path: "_pages"
-      type: "pages"
-    values:
-      layout: "default"

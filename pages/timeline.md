@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Timeline
+permalink: /timeline/
 ---
 
 # Timeline & Key Dates

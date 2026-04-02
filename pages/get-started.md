@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Get Started
+permalink: /get-started/
 ---
 
 # Get Started

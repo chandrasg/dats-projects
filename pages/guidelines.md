@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Guidelines
+permalink: /guidelines/
 ---
 
 # Guidelines
