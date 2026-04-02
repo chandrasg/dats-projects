@@ -4,75 +4,25 @@ Website for Penn Data Science MSE students pursuing DATS 5990 (Practicum) or DAT
 
 Live at: https://chandrasg.github.io/dats-projects
 
-## Setup & Deployment
+## What to Update and When
 
-### 1. Create the GitHub repo
+### Each semester — `_data/timeline.yml`
+Update milestone dates for the new semester. Add a new block (e.g., `fall_2026:`) following the same format, and update `current_semester` at the top. You can edit this directly on GitHub using the pencil icon — no local setup needed.
 
-```bash
-# From this directory:
-cd dats-practicum-site
-git init
-git add .
-git commit -m "Initial site build"
+### Contact changes — `_data/contacts.yml`
+Update faculty or staff names, emails, or roles here. All contact info across the site (home page, footer) pulls from this single file.
 
-# Create the repo on GitHub (requires gh CLI):
-gh repo create dats-projects --public --source=. --push
+### Page content — `pages/*.md` and `index.md`
+Each page is a Markdown file — no HTML knowledge needed for most edits:
+- `index.md` — Home page (overview, comparison table, quick links)
+- `pages/get-started.md` — Enrollment steps
+- `pages/guidelines.md` — Thesis & practicum requirements
+- `pages/timeline.md` — Timeline page
+- `pages/faq.md` — Frequently asked questions
+- `pages/resources.md` — Forms, links, past projects
 
-# Or manually:
-# 1. Go to https://github.com/new
-# 2. Create repo named "dats-projects"
-# 3. Push:
-git remote add origin https://github.com/chandrasg/dats-projects.git
-git branch -M main
-git push -u origin main
-```
+### Navigation or site title — `_config.yml` and `_includes/header.html`
+Change the site title/description in `_config.yml`. Add or remove nav links in `_includes/header.html`.
 
-### 2. Enable GitHub Pages
-
-1. Go to **Settings** → **Pages** in your repo
-2. Under "Source", select **Deploy from a branch**
-3. Select **main** branch, **/ (root)** folder
-4. Click Save
-5. Wait ~60 seconds, your site will be at: `https://chandrasg.github.io/dats-practicum`
-
-### 3. (Optional) Test locally
-
-```bash
-gem install bundler jekyll
-bundle install
-bundle exec jekyll serve
-# Open http://localhost:4000/dats-projects/
-```
-
-## Updating Content
-
-### Update semester dates
-Edit `_data/timeline.yml` — change dates, add new semesters. You can do this directly on GitHub's web interface (pencil icon).
-
-### Update contact info
-Edit `_data/contacts.yml`.
-
-### Update page content
-Edit any `.md` file in `pages/` or `index.md`. Content is in Markdown — no HTML knowledge needed for most updates.
-
-### File structure
-```
-_config.yml          # Site settings (rarely needs changes)
-_data/
-  timeline.yml       # Semester dates (update each semester)
-  contacts.yml       # Faculty/staff contact info
-_includes/
-  header.html        # Navigation bar
-  footer.html        # Footer
-_layouts/
-  default.html       # Page template
-assets/css/
-  style.css          # Styling
-index.md             # Home page
-pages/
-  get-started.md     # Enrollment steps
-  guidelines.md      # Thesis & practicum requirements
-  timeline.md        # Timeline page
-  faq.md             # Frequently asked questions
-  resources.md       # Forms, links, past projects
-```
+### Styling — `assets/css/style.css`
+Penn colors, fonts, and layout. Rarely needs changes.
