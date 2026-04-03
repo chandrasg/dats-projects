@@ -52,7 +52,7 @@ Request either <strong>DATS 5990</strong> (Practicum) or <strong>DATS 9990</stro
 </li>
 <li>
 <strong>Present your proposal to the Project Director</strong><br>
-Before or shortly after the add/drop deadline, share your proposal with <a href="mailto:{{ site.data.contacts.project_director.email }}">{{ site.data.contacts.project_director.name }}</a> (in-person or via email). This ensures the Project Director is aligned on your scope before you start — it is not just a formality. The permit will not be issued until this step is complete.
+Share your proposal with <a href="mailto:{{ site.data.contacts.project_director.email }}">{{ site.data.contacts.project_director.name }}</a> (in-person or via email). This must happen before your enrollment is approved — the permit will not be issued until the Project Director has reviewed and signed off on your proposal. Beyond this required step, the Project Director is also available for consultation at any point: when identifying a potential advisor, scoping your project idea, or if questions come up during the project itself.
 </li>
 </ol>
 
