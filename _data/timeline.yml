@@ -15,10 +15,10 @@ spring_2026:
     date: "Before March 30, 2026"
     note: "Project report due. March 30th is the last day to withdraw from a course."
   - milestone: "Thesis submission deadline"
-    date: "May 4th"
+    date: "May 4, 2026"
     note: "Submit completed/signed thesis electronically to grad-affairs@seas.upenn.edu."
   - milestone: "DATS Presentation Day"
-    date: "May 8th"
+    date: "May 8, 2026"
     note: "Thesis talks (5 min) and practicum poster session. Details announced closer to the date."
 
 fall_2026:
