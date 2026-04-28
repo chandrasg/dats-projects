@@ -19,7 +19,23 @@ spring_2026:
     note: "Submit completed/signed thesis electronically to grad-affairs@seas.upenn.edu."
   - milestone: "DATS Presentation Day"
     date: "May 8, 2026"
-    note: "Thesis talks (5 min) and practicum poster session. Details announced closer to the date."
+    note: "Thesis talks (5 min) and practicum poster session.Thesis talks 10:00–11:30 AM, Lunch, Practicum posters 12–1:00 PM. Location: AGH 105"
+    "All Interim Reports and Practicum Poster PDFs – Upload a PDF via Google Form by EOD Monday, May 4th https://forms.gle/btkWk9mSZMTMjeiD8."
+    "All Thesis and Pre-recorded Practicum Presentations* – Upload to Google Drive by EOD Wednesday, May 6th (*must be pre-approved by Dr. Guntuku)"
+    "https://drive.google.com/drive/folders/1ZuSPzKVxhM0jcRNdAiMnDIRTbX3c9VkH?usp=sharing."
+    
+summer_2026:
+  - milestone: "Submit project/thesis form & advisor agreement"
+    date: "By June 5, 2026"
+    note: "June 10, 2026 is the last day to add a course and last day to drop for full refund."
+    - milestone: "Mid-term check-in with advisor & project director"
+    date: "By June 24, 2026"
+    note: "Brief PowerPoint, progress demo, or report outline. June 24th is the last day to drop for 50% refund."
+      - milestone: "Final check-in with advisor & project director"
+    date: "Before August 2, 2026"
+    note: "Project report due. August 2 is the last day to withdraw from a course."
+    milestone: "Deliverables Due"
+    date: "August 7, 2026"
 
 fall_2026:
   - milestone: "Submit project/thesis form & advisor agreement"
