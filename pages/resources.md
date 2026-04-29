@@ -75,13 +75,13 @@ Practicum students present a research poster at DATS Presentation Day. There is 
 </div>
 
 <div class="resource-card">
-<h4><a href="https://guides.library.illinois.edu/poster/stepbystep" target="_blank">UIUC Poster Design Step-by-Step &rarr;</a></h4>
-<p>Practical walkthrough covering layout, font sizes, content density, and PowerPoint setup for print-ready posters.</p>
+<h4><a href="https://guides.library.upenn.edu/poster-presentation" target="_blank">Penn Libraries – Poster Presentations Guide &rarr;</a></h4>
+<p>Penn's own guide covering design, layout, and content. Includes PowerPoint templates sized for standard conference printing.</p>
 </div>
 
 <div class="resource-card">
-<h4><a href="https://owl.purdue.edu/owl/general_writing/common_writing_assignments/research_posters/research_poster_formatting.html" target="_blank">Purdue OWL – Poster Formatting Guide &rarr;</a></h4>
-<p>Covers structure, section headings, font guidelines, and common formatting mistakes to avoid.</p>
+<h4><a href="https://gsc.upenn.edu/research-poster-design-tips" target="_blank">Penn Graduate Student Center – Poster Design Tips &rarr;</a></h4>
+<p>Practical advice from Penn's GSC: font sizing, visual hierarchy, use of QR codes, and how to prepare for poster conversations.</p>
 </div>
 
 ## Poster Printing
