@@ -76,18 +76,25 @@ Practicum students present a research poster at DATS Presentation Day. There is 
 
 <div class="resource-card">
 <h4><a href="https://guides.library.upenn.edu/poster-presentation" target="_blank">Penn Libraries – Poster Presentations Guide &rarr;</a></h4>
-<p>Penn's own guide covering design, layout, and content. Includes PowerPoint templates sized for standard conference printing.</p>
+<p>Penn's own guide covering design, layout, and content.</p>
 </div>
 
 <div class="resource-card">
-<h4><a href="https://gsc.upenn.edu/research-poster-design-tips" target="_blank">Penn Graduate Student Center – Poster Design Tips &rarr;</a></h4>
-<p>Practical advice from Penn's GSC: font sizing, visual hierarchy, use of QR codes, and how to prepare for poster conversations.</p>
+<h4><a href="https://ldi.upenn.edu/wp-content/uploads/2021/07/LDI_Poster_Template_2019-regular-updated-7.pptx" target="_blank">LDI Poster Template – Traditional Format &rarr;</a></h4>
+<p>PowerPoint template from Penn's Leonard Davis Institute. Standard multi-column layout sized for conference printing.</p>
+</div>
+
+<div class="resource-card">
+<h4><a href="https://ldi.upenn.edu/wp-content/uploads/2021/07/LDI_Poster_Template_2019-smart-updated-5.pptx" target="_blank">LDI Poster Template – Quick-Glance Format &rarr;</a></h4>
+<p>A more visual, scannable layout — useful if your results lead with a single clear finding.</p>
 </div>
 
 ## Poster Printing
 
+Posters should be printed at **CETS** (located in SEAS). Contact <a href="mailto:{{ site.data.contacts.program_manager.email }}">{{ site.data.contacts.program_manager.name }}</a> for the budget code before placing your order.
+
 <div class="resource-card">
 <h4><a href="https://cets.seas.upenn.edu/answers/posters.html" target="_blank">CETS Poster Printing &rarr;</a></h4>
-<p>Poster printing service for practicum presentations. Contact <a href="mailto:{{ site.data.contacts.program_manager.email }}">{{ site.data.contacts.program_manager.name }}</a> for the budget code.</p>
+<p>Printing instructions, file format requirements, and turnaround times. Allow at least 2–3 business days before Presentation Day.</p>
 </div>
 
