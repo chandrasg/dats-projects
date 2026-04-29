@@ -22,6 +22,22 @@ permalink: /timeline/
 </table>
 </div>
 
+## Summer 2026
+
+<div class="table-scroll">
+<table class="timeline-table">
+<thead><tr><th>Milestone</th><th>Date</th></tr></thead>
+<tbody>
+{% for item in site.data.timeline.summer_2026 %}
+<tr>
+<td>{{ item.milestone }}</td>
+<td>{{ item.date }}<div class="note">{{ item.note }}</div></td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
 ## Fall 2026 *(dates to be posted by August 2026)*
 
 <div class="table-scroll">
