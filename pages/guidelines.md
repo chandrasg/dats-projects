@@ -38,7 +38,7 @@ Submit your report as a PDF by the deadline on the [Timeline]({{ '/timeline/' | 
 Practicum students present posters at DATS Presentation Day.
 
 **Poster specifications:**
-- Size: 48 × 36 inches, landscape orientation
+- Size: 24 × 36 inches, landscape orientation
 - Easels and poster board/clips will be provided
 - Printing: print at [CETS](https://cets.seas.upenn.edu/answers/posters.html) — contact the Program Manager for the budget code
 - See the [Resources page]({{ '/resources/' | relative_url }}#poster-presentation) for design tips, templates, and printing details

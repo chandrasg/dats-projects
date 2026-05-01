@@ -61,7 +61,7 @@ permalink: /resources/
 
 ## Poster Presentation {#poster-presentation}
 
-Practicum students present a research poster at DATS Presentation Day. There is no required template — aim for a **48" × 36" landscape** format (standard US conference size). Design guidelines:
+Practicum students present a research poster at DATS Presentation Day. There is no required template — aim for a **24" × 36" landscape** format (standard US conference size). Design guidelines:
 
 - **Structure:** Title + authors across the top; 3–4 columns below covering motivation, approach, results, and takeaways
 - **Text:** Keep it under ~800 words — posters are for conversation, not reading. Use bullets and short phrases
