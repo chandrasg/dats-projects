@@ -97,9 +97,9 @@ Same as Practicum: meet with your faculty advisor and the Project Director aroun
 Your thesis must follow SEAS formatting guidelines: [Masters Thesis Guidelines](https://grad.seas.upenn.edu/student-handbook/masters-thesis/)
 
 **Title page signatures required:**
-1. Your Advisor
-2. Thesis Project Director (Dr. Guntuku) — sharathg@seas.upenn.edu
-3. Program Director (Prof. Sue Davidson) — susan@seas.upenn.edu
+1. Your Faculty Advisor
+2. DATS Project Director (Dr. Guntuku) — sharathg@seas.upenn.edu
+3. DATS Program Director (Prof. Susan Davidson) — susan@seas.upenn.edu
 
 **Sample title page:** [SEAS Sample Title Page (PDF)](https://grad.seas.upenn.edu/wp-content/uploads/2018/09/MS-sample-thesis-title-picture.pdf)
 

@@ -2,9 +2,14 @@
 
 project_director:
   name: "Sharath Chandra Guntuku"
-  title: "Faculty Project Director"
+  title: "DATS Project Director"
   email: "sharathg@seas.upenn.edu"
   website: "https://sharathg.cis.upenn.edu/"
+
+program_director:
+  name: "Susan Davidson"
+  title: "DATS Program Director"
+  email: "susan@seas.upenn.edu"
 
 program_manager:
   name: "Staci Kaplan"

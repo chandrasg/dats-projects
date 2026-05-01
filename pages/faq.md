@@ -66,7 +66,7 @@ No. You cannot receive payment for a project you are also enrolling for academic
 <summary>What is the format of the project report?</summary>
 <div class="faq-answer">
 <p><strong>Practicum:</strong> A 5–10 page report describing the project, background, data used, methods developed/employed, and takeaways/conclusions. Include links to any evaluable code.</p>
-<p><strong>Thesis:</strong> Follow <a href="https://grad.seas.upenn.edu/student-handbook/masters-thesis/" target="_blank">SEAS thesis formatting guidelines</a>. For citations, follow the Chicago Manual of Style, MLA Handbook, or the appropriate manual for your field. See the <a href="https://grad.seas.upenn.edu/wp-content/uploads/2018/09/MS-sample-thesis-title-picture.pdf" target="_blank">sample title page</a>. You'll need three signatures on the title page: your advisor, Dr. Guntuku (Project Director), and Prof. Sue Davidson (Program Director).</p>
+<p><strong>Thesis:</strong> Follow <a href="https://grad.seas.upenn.edu/student-handbook/masters-thesis/" target="_blank">SEAS thesis formatting guidelines</a>. For citations, follow the Chicago Manual of Style, MLA Handbook, or the appropriate manual for your field. See the <a href="https://grad.seas.upenn.edu/wp-content/uploads/2018/09/MS-sample-thesis-title-picture.pdf" target="_blank">sample title page</a>. You'll need three signatures on the title page: your faculty advisor, Dr. Guntuku (DATS Project Director), and Prof. Susan Davidson (DATS Program Director).</p>
 </div>
 </details>
 
