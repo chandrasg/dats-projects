@@ -76,6 +76,14 @@ Both courses count as technical and depth area electives toward the ten required
 <h4><a href="https://drive.google.com/file/d/19d3zkQQ5TE014Onx_T0yOSQOgVGeGfKO/view" target="_blank">Advisor Agreement Form &rarr;</a></h4>
 <p>Download, get signed by your advisor, and upload</p>
 </div>
+<div class="resource-card">
+<h4><a href="{{ '/guidelines/' | relative_url }}">Guidelines &rarr;</a></h4>
+<p>Report requirements, grading, check-ins, and presentation details</p>
+</div>
+<div class="resource-card">
+<h4><a href="{{ '/resources/' | relative_url }}#poster-presentation">Poster Resources &rarr;</a></h4>
+<p>Templates, design tips, and CETS printing info</p>
+</div>
 </div>
 
 ## Contact

@@ -59,7 +59,7 @@ permalink: /resources/
 <p>Internal catalog of research datasets available to Penn students.</p>
 </div>
 
-## Poster Presentation
+## Poster Presentation {#poster-presentation}
 
 Practicum students present a research poster at DATS Presentation Day. There is no required template — aim for a **48" × 36" landscape** format (standard US conference size). Design guidelines:
 

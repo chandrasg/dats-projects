@@ -74,7 +74,7 @@ No. You cannot receive payment for a project you are also enrolling for academic
 <summary>What are the presentation guidelines?</summary>
 <div class="faq-answer">
 <p><strong>Thesis:</strong> Prepare a 5-minute presentation for DATS Presentation Day.</p>
-<p><strong>Practicum:</strong> Present a poster (24 × 36 inches, landscape orientation). Poster printing is available through <a href="https://cets.seas.upenn.edu/answers/posters.html" target="_blank">CETS</a>. Contact the Program Manager for the budget code. Easels and poster board will be provided.</p>
+<p><strong>Practicum:</strong> Present a poster (48 × 36 inches, landscape orientation). Print at <a href="https://cets.seas.upenn.edu/answers/posters.html" target="_blank">CETS</a> — contact the Program Manager for the budget code. Easels and poster board will be provided. See the <a href="{{ '/resources/' | relative_url }}#poster-presentation">Resources page</a> for templates and design tips.</p>
 <p>All students upload their presentations/posters to the shared Google Drive folder before the event. Check the <a href="{{ '/timeline/' | relative_url }}">Timeline</a> for specific deadlines.</p>
 </div>
 </details>

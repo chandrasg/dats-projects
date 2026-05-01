@@ -47,12 +47,12 @@ Download the <a href="https://drive.google.com/file/d/19d3zkQQ5TE014Onx_T0yOSQOg
 Fill out the <a href="https://forms.gle/fYeA2nXtkgzqLpio6" target="_blank">Project/Thesis Submission Form</a>. You'll upload your signed advisor agreement and project proposal as part of this form.
 </li>
 <li>
-<strong>Request the course in Path@Penn</strong><br>
-Request either <strong>DATS 5990</strong> (Practicum) or <strong>DATS 9990</strong> (Thesis) in Path@Penn. Once approved, Staci Kaplan (Program Manager) will issue your permit.
-</li>
-<li>
 <strong>Present your proposal to the Projects Director</strong><br>
 Share your proposal with <a href="mailto:{{ site.data.contacts.project_director.email }}">{{ site.data.contacts.project_director.name }}</a> (in-person or via email). This must happen before your enrollment is approved — the permit will not be issued until the Projects Director has reviewed and signed off on your proposal. Beyond this required step, the Projects Director is also available for consultation at any point: when identifying a potential advisor, scoping your project idea, or if questions come up during the project itself.
+</li>
+<li>
+<strong>Request the course in Path@Penn</strong><br>
+Request either <strong>DATS 5990</strong> (Practicum) or <strong>DATS 9990</strong> (Thesis) in Path@Penn. Once approved, Staci Kaplan (Program Manager) will issue your permit.
 </li>
 </ol>
 
