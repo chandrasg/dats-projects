@@ -24,8 +24,8 @@ permalink: /resources/
 </div>
 
 <div class="resource-card">
-<h4><a href="https://grad.seas.upenn.edu/wp-content/uploads/2018/09/MS-sample-thesis-title-picture.pdf" target="_blank">Sample Thesis Title Page &rarr;</a></h4>
-<p>Template for the required title page format with three signature lines.</p>
+<h4><a href="{{ '/assets/dats-thesis-title-page-template.pdf' | relative_url }}" target="_blank">DATS Thesis Title Page Template &rarr;</a></h4>
+<p>Title page template with the three required signature lines: Faculty Advisor, DATS Projects Director, and DATS Program Director.</p>
 </div>
 
 ## Past Student Projects

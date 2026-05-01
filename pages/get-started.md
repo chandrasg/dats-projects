@@ -51,8 +51,8 @@ Fill out the <a href="https://forms.gle/fYeA2nXtkgzqLpio6" target="_blank">Proje
 Request either <strong>DATS 5990</strong> (Practicum) or <strong>DATS 9990</strong> (Thesis) in Path@Penn. Once approved, Staci Kaplan (Program Manager) will issue your permit.
 </li>
 <li>
-<strong>Present your proposal to the Project Director</strong><br>
-Share your proposal with <a href="mailto:{{ site.data.contacts.project_director.email }}">{{ site.data.contacts.project_director.name }}</a> (in-person or via email). This must happen before your enrollment is approved — the permit will not be issued until the Project Director has reviewed and signed off on your proposal. Beyond this required step, the Project Director is also available for consultation at any point: when identifying a potential advisor, scoping your project idea, or if questions come up during the project itself.
+<strong>Present your proposal to the Projects Director</strong><br>
+Share your proposal with <a href="mailto:{{ site.data.contacts.project_director.email }}">{{ site.data.contacts.project_director.name }}</a> (in-person or via email). This must happen before your enrollment is approved — the permit will not be issued until the Projects Director has reviewed and signed off on your proposal. Beyond this required step, the Projects Director is also available for consultation at any point: when identifying a potential advisor, scoping your project idea, or if questions come up during the project itself.
 </li>
 </ol>
 
@@ -76,7 +76,7 @@ Projects that tend to struggle:
 - Consulting-style deliverables (dashboards, reports) without a research question underneath
 - Projects where the answer is already known and you're only verifying it
 
-If you're unsure whether your idea crosses the line, email the Project Director before committing to an advisor.
+If you're unsure whether your idea crosses the line, email the Projects Director before committing to an advisor.
 
 ## What to Expect in the First Few Weeks
 

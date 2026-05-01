@@ -9,19 +9,19 @@ permalink: /guidelines/
 ## Practicum (DATS 5990)
 
 ### Credits and Enrollment
-Students may enroll in one or two course units. One CU in a single semester is typical. Two CUs in one semester may be allowed at the advisor's and Project Director's discretion based on project scope.
+Students may enroll in one or two course units. One CU in a single semester is typical. Two CUs in one semester may be allowed at the advisor's and Projects Director's discretion based on project scope.
 
 ### Advisor Requirements
-Any Penn faculty member can serve as your advisor. If your advisor is outside SEAS, the Project Director will nominally co-advise.
+Any Penn faculty member can serve as your advisor. If your advisor is outside SEAS, the Projects Director will nominally co-advise.
 
 ### Industry Projects
-Industry-proposed practicums are acceptable provided they produce a tangible, academically-based product that the Project Director can evaluate — for example, a research paper, a rigorous evaluation of a novel method, or a reproducible analysis with clear findings. A consulting deliverable (a dashboard, a report without a research question, or data cleaning for a client) does not qualify on its own. You cannot receive payment for a project you are also enrolling for practicum credit.
+Industry-proposed practicums are acceptable provided they produce a tangible, academically-based product that the Projects Director can evaluate — for example, a research paper, a rigorous evaluation of a novel method, or a reproducible analysis with clear findings. A consulting deliverable (a dashboard, a report without a research question, or data cleaning for a client) does not qualify on its own. You cannot receive payment for a project you are also enrolling for practicum credit.
 
 ### Team Projects
 You may work as a team of 2–3 students if your faculty advisor approves and each team member has a clearly distinct set of deliverables. This should be specified in the advisor agreement form.
 
 ### Mid-Semester Check-In
-You are expected to meet with your faculty advisor and the Project Director around the mid-semester mark. Come prepared with one of: a brief slide deck showing your progress, a live demo, or a written report outline. The check-in is a calibration point — the goal is to surface problems early, not to evaluate finished work.
+You are expected to meet with your faculty advisor and the Projects Director around the mid-semester mark. Come prepared with one of: a brief slide deck showing your progress, a live demo, or a written report outline. The check-in is a calibration point — the goal is to surface problems early, not to evaluate finished work.
 
 ### Report Requirements
 Your practicum report should be 5–10 pages and include:
@@ -49,7 +49,7 @@ Practicum students present posters at DATS Presentation Day.
 - Prepare a 60-second verbal summary — most visitors will ask you to explain it rather than read it
 
 ### How Grades Are Determined
-Grades reflect a combination of advisor assessment and Project Director review of your deliverables. Specifically:
+Grades reflect a combination of advisor assessment and Projects Director review of your deliverables. Specifically:
 
 - **Progress toward milestones** — did you hit the checkpoints set in your proposal?
 - **Quality of the final report** — clarity, rigor, and completeness
@@ -91,17 +91,17 @@ The second semester is for completing your research and writing your thesis. Key
 Work with your advisor to set clear milestones for both semesters at the start. The most common failure mode is underestimating how long writing takes — start drafting sections as you go, not only at the end.
 
 ### Mid-Semester Check-In
-Same as Practicum: meet with your faculty advisor and the Project Director around the mid-semester mark with a slide deck, demo, or report outline. For thesis students this is particularly important in semester 1, when a scope problem caught early is fixable but caught late becomes a crisis.
+Same as Practicum: meet with your faculty advisor and the Projects Director around the mid-semester mark with a slide deck, demo, or report outline. For thesis students this is particularly important in semester 1, when a scope problem caught early is fixable but caught late becomes a crisis.
 
 ### Report Requirements
 Your thesis must follow SEAS formatting guidelines: [Masters Thesis Guidelines](https://grad.seas.upenn.edu/student-handbook/masters-thesis/)
 
 **Title page signatures required:**
 1. Your Faculty Advisor
-2. DATS Project Director (Dr. Guntuku) — sharathg@seas.upenn.edu
+2. DATS Projects Director (Dr. Guntuku) — sharathg@seas.upenn.edu
 3. DATS Program Director (Prof. Susan Davidson) — susan@seas.upenn.edu
 
-**Sample title page:** [SEAS Sample Title Page (PDF)](https://grad.seas.upenn.edu/wp-content/uploads/2018/09/MS-sample-thesis-title-picture.pdf)
+**Sample title page:** [DATS Thesis Title Page Template (PDF)]({{ '/assets/dats-thesis-title-page-template.pdf' | relative_url }})
 
 For citations, follow the Chicago Manual of Style, the MLA Handbook, or the appropriate manual for your field.
 
