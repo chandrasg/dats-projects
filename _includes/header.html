@@ -8,12 +8,12 @@
       <span></span><span></span><span></span>
     </button>
     <nav class="site-nav" id="site-nav">
-      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
-      <a href="{{ '/get-started/' | relative_url }}" {% if page.url contains 'get-started' %}class="active"{% endif %}>Get Started</a>
-      <a href="{{ '/guidelines/' | relative_url }}" {% if page.url contains 'guidelines' %}class="active"{% endif %}>Guidelines</a>
-      <a href="{{ '/timeline/' | relative_url }}" {% if page.url contains 'timeline' %}class="active"{% endif %}>Timeline</a>
-      <a href="{{ '/faq/' | relative_url }}" {% if page.url contains 'faq' %}class="active"{% endif %}>FAQ</a>
-      <a href="{{ '/resources/' | relative_url }}" {% if page.url contains 'resources' %}class="active"{% endif %}>Resources</a>
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/get-started/' | relative_url }}" {% if page.url contains 'get-started' %}class="active" aria-current="page"{% endif %}>Get Started</a>
+      <a href="{{ '/guidelines/' | relative_url }}" {% if page.url contains 'guidelines' %}class="active" aria-current="page"{% endif %}>Guidelines</a>
+      <a href="{{ '/timeline/' | relative_url }}" {% if page.url contains 'timeline' %}class="active" aria-current="page"{% endif %}>Timeline</a>
+      <a href="{{ '/faq/' | relative_url }}" {% if page.url contains 'faq' %}class="active" aria-current="page"{% endif %}>FAQ</a>
+      <a href="{{ '/resources/' | relative_url }}" {% if page.url contains 'resources' %}class="active" aria-current="page"{% endif %}>Resources</a>
     </nav>
   </div>
 </header>

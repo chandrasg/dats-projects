@@ -6,6 +6,17 @@ permalink: /guidelines/
 
 # Guidelines
 
+<nav class="page-toc" aria-label="On this page">
+<strong>On this page</strong>
+<ul>
+<li><a href="#practicum-dats-5990">Practicum (DATS 5990)</a></li>
+<li><a href="#thesis-dats-9990">Thesis (DATS 9990)</a></li>
+<li><a href="#evaluation-rubric">Evaluation Rubric</a></li>
+<li><a href="#working-with-your-advisor">Working with Your Advisor</a></li>
+<li><a href="#after-you-finish">After You Finish</a></li>
+</ul>
+</nav>
+
 ## Practicum (DATS 5990)
 
 ### Credits and Enrollment
@@ -50,14 +61,7 @@ Practicum students present posters at DATS Presentation Day.
 - Prepare a 60-second verbal summary — most visitors will ask you to explain it rather than read it
 
 ### How Grades Are Determined
-Grades reflect a combination of advisor assessment and Projects Director review of your deliverables. Specifically:
-
-- **Progress toward milestones** — did you hit the checkpoints set in your proposal?
-- **Quality of the final report** — clarity, rigor, and completeness
-- **Quality of the presentation** — for poster sessions, your ability to explain the work
-- **Advisor assessment** — your advisor will be consulted on your overall contribution and engagement
-
-There is no single formula. Students who maintain consistent progress, communicate proactively with their advisor, and deliver a clear final report typically receive strong grades.
+Your grade combines your advisor's assessment with the Projects Director's review of your deliverables — your progress against the milestones in your proposal, the quality of your final report, and how well you present and explain the work. There is no single formula; students who maintain steady progress, communicate proactively, and deliver a clear final report typically do well. See the [Evaluation Rubric](#evaluation-rubric) for the specific dimensions you and your advisor can use to assess the work.
 
 ---
 
@@ -115,12 +119,71 @@ Submit your completed and signed thesis electronically to [grad-affairs@seas.upe
 Thesis students deliver a 5-minute presentation at DATS Presentation Day. Practice your talk at least twice — five minutes is harder to fill well than it sounds.
 
 ### How Grades Are Determined
-Each semester is graded independently based on:
+Each semester is graded independently. **Semester 1** is judged mainly on the quality and completeness of your interim report, your progress on the research foundations (literature, problem formulation, data), and your advisor's assessment of engagement. **Semester 2** is judged on the quality of the final thesis, your presentation, and your overall contribution. The [Evaluation Rubric](#evaluation-rubric) below lays out the dimensions in detail — thesis work is held to the higher bar across every dimension and is additionally expected to demonstrate a novel contribution.
 
-- **Semester 1:** Quality and completeness of the interim report, progress on research foundations, and advisor assessment of engagement
-- **Semester 2:** Quality of the final thesis, quality of the presentation, and advisor assessment of the overall contribution
+If you fall behind, communicate early — advisors can help recalibrate scope; they cannot help if they don't know there's a problem.
 
-Students who set milestones with their advisor at the start of each semester and hit them consistently tend to do well. If you fall behind, communicate early — advisors can help recalibrate scope; they cannot help if they don't know there's a problem.
+---
+
+## Evaluation Rubric
+
+This rubric is a shared tool for **students and advisors**. Use it before each check-in and before final submission: rate the work on each dimension, and address any "Developing" areas while there's still time. It is not a point formula — advisors weigh the dimensions holistically alongside the difficulty and scope of your project.
+
+<div class="table-scroll" markdown="0">
+<table class="timeline-table rubric-table">
+<thead>
+<tr>
+<th scope="col">Dimension</th>
+<th scope="col">Developing</th>
+<th scope="col">Proficient</th>
+<th scope="col">Exemplary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Problem &amp; motivation</td>
+<td>Question vague or overly broad; significance unclear.</td>
+<td>Clear, well-scoped question with a stated motivation.</td>
+<td>Sharp question grounded in a real gap; significance is compelling.</td>
+</tr>
+<tr>
+<td>Background &amp; related work</td>
+<td>Little engagement with prior work; gap not identified.</td>
+<td>Relevant prior work summarized; the gap is identified.</td>
+<td>Critical synthesis that clearly positions the contribution.</td>
+</tr>
+<tr>
+<td>Methods &amp; rigor</td>
+<td>Methods unclear, unjustified, or not reproducible.</td>
+<td>Sound, appropriate methods, clearly described and reproducible.</td>
+<td>Well-justified and rigorous, with thoughtful baselines or validation.</td>
+</tr>
+<tr>
+<td>Results &amp; interpretation</td>
+<td>Results incomplete or unsupported; limitations ignored.</td>
+<td>Results clearly presented and correctly interpreted; limitations noted.</td>
+<td>Thoroughly analyzed, honestly caveated, tied back to the question.</td>
+</tr>
+<tr>
+<td>Communication</td>
+<td>Report or poster hard to follow; key message buried.</td>
+<td>Clear structure; figures support the argument; message easy to find.</td>
+<td>Polished and persuasive; figures carry the story; confident delivery.</td>
+</tr>
+<tr>
+<td>Independence &amp; engagement</td>
+<td>Reactive; misses check-ins; advisor drives the work.</td>
+<td>Reliable progress; prepared for meetings; raises blockers early.</td>
+<td>Drives the project; sets the agenda; turns feedback into momentum.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+**Track differences:**
+
+- **Practicum (DATS 5990)** emphasizes a well-scoped, well-executed contribution and clear communication. "Proficient" across the board is solid practicum work.
+- **Thesis (DATS 9990)** is held to the "Proficient–Exemplary" bar across every dimension and must additionally demonstrate a **novel contribution** suitable toward a publication. In semester 1, the interim report is assessed mainly on the first three dimensions plus early results.
 
 ---
 
@@ -143,3 +206,15 @@ All students (thesis and practicum) must upload their presentations and poster P
 <div class="info-box">
 <strong>Accelerated Master's students</strong> still enrolled in their Penn undergrad program follow the undergraduate calendar and their undergraduate home school's policies.
 </div>
+
+---
+
+## After You Finish
+
+Your project doesn't have to end when the grade is posted. A few things worth doing:
+
+- **Keep your code repository clean and accessible.** A well-documented public repo with a clear README is one of the strongest portfolio pieces you can show an employer. Link it from your résumé and LinkedIn.
+- **Talk to your advisor about publishing.** Strong theses — and some practicums — can be developed into workshop or conference papers. Your advisor can tell you whether the work is a candidate and what it would take.
+- **Add it to your résumé and LinkedIn** with a one-line result ("Built X that achieved Y"), not just a title. Lead with the outcome.
+- **Let your work help the next cohort.** With your permission, your report may be shared as an example for future students — the [past reports]({{ '/resources/' | relative_url }}) you learned from came from students before you. Email the Projects Director if you're willing to contribute yours.
+- **Cite appropriately.** If your project leads to a publication, follow the citation conventions for your field and acknowledge your advisor and the program.

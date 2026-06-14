@@ -46,11 +46,45 @@ full_width: true
 
 Both courses count as technical and depth area electives toward the ten required credits for the MSE degree.
 
+## Find What You Need
+
+<div class="phase-grid">
+<div class="phase-card">
+<span class="phase-label">Before</span>
+<h3>Planning & Enrolling</h3>
+<ul>
+<li><a href="{{ '/get-started/' | relative_url }}">Find an advisor & scope a project</a></li>
+<li><a href="{{ '/get-started/#what-makes-a-good-project' | relative_url }}">What makes a good project</a></li>
+<li><a href="{{ '/resources/' | relative_url }}">Browse past reports & forms</a></li>
+<li><a href="{{ '/get-started/#enrollment-steps' | relative_url }}">Enrollment steps</a></li>
+</ul>
+</div>
+<div class="phase-card">
+<span class="phase-label">During</span>
+<h3>Doing the Work</h3>
+<ul>
+<li><a href="{{ '/guidelines/' | relative_url }}">Report & check-in requirements</a></li>
+<li><a href="{{ '/guidelines/#evaluation-rubric' | relative_url }}">How your work is evaluated</a></li>
+<li><a href="{{ '/guidelines/#working-with-your-advisor' | relative_url }}">Working with your advisor</a></li>
+<li><a href="{{ '/timeline/' | relative_url }}">Key dates & deadlines</a></li>
+</ul>
+</div>
+<div class="phase-card">
+<span class="phase-label">After</span>
+<h3>Finishing & Beyond</h3>
+<ul>
+<li><a href="{{ '/guidelines/#presentation' | relative_url }}">Presentation & poster day</a></li>
+<li><a href="{{ '/resources/#poster-presentation' | relative_url }}">Poster templates & printing</a></li>
+<li><a href="{{ '/guidelines/#after-you-finish' | relative_url }}">Publishing & next steps</a></li>
+</ul>
+</div>
+</div>
+
 ## Current Semester: {{ site.data.timeline.current_semester }}
 
 <div class="table-scroll">
 <table class="timeline-table">
-<thead><tr><th>Milestone</th><th>Date</th></tr></thead>
+<thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
 <tbody>
 {% assign current_items = site.data.timeline[site.data.timeline.current_key] %}
 {% for item in current_items %}

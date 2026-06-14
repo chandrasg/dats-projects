@@ -71,6 +71,13 @@ No. You cannot receive payment for a project you are also enrolling for academic
 </details>
 
 <details class="faq-item">
+<summary>How will my work be evaluated?</summary>
+<div class="faq-answer">
+Your grade combines your advisor's assessment with the Projects Director's review of your deliverables — progress against your proposed milestones, the quality of your report, and your presentation. The <a href="{{ '/guidelines/#evaluation-rubric' | relative_url }}">Evaluation Rubric</a> lays out the specific dimensions (problem framing, methods, results, communication, and independence). It's designed for you and your advisor to use together as a self-assessment throughout the project, not just at the end.
+</div>
+</details>
+
+<details class="faq-item">
 <summary>What are the presentation guidelines?</summary>
 <div class="faq-answer">
 <p><strong>Thesis:</strong> Prepare a 5-minute presentation for DATS Presentation Day.</p>

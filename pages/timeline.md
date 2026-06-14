@@ -10,7 +10,7 @@ permalink: /timeline/
 
 <div class="table-scroll">
 <table class="timeline-table">
-<thead><tr><th>Milestone</th><th>Date</th></tr></thead>
+<thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
 <tbody>
 {% assign current_items = site.data.timeline[site.data.timeline.current_key] %}
 {% for item in current_items %}
@@ -27,7 +27,7 @@ permalink: /timeline/
 
 <div class="table-scroll">
 <table class="timeline-table">
-<thead><tr><th>Milestone</th><th>Date</th></tr></thead>
+<thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
 <tbody>
 {% for item in site.data.timeline.summer_2026 %}
 <tr>
@@ -43,7 +43,7 @@ permalink: /timeline/
 
 <div class="table-scroll">
 <table class="timeline-table">
-<thead><tr><th>Milestone</th><th>Date</th></tr></thead>
+<thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
 <tbody>
 {% for item in site.data.timeline.fall_2026 %}
 <tr>
