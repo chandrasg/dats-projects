@@ -12,11 +12,15 @@ Update milestone dates for the new semester. Add a new block (e.g., `fall_2026:`
 ### Contact changes — `_data/contacts.yml`
 Update faculty or staff names, emails, or roles here. All contact info across the site (home page, footer) pulls from this single file.
 
+### Each Industry Capstone cycle — `_data/industry.yml`
+Update the application, interview, and semester dates each cycle. Paste the application and sponsor-projects URLs between the quotes (`application_url`, `projects_url`) once they're posted — while empty, the Industry Capstone page shows a "contact the Program Manager" fallback automatically.
+
 ### Page content — `pages/*.md` and `index.md`
 Each page is a Markdown file — no HTML knowledge needed for most edits:
 - `index.md` — Home page (overview, comparison table, quick links)
 - `pages/get-started.md` — Enrollment steps
 - `pages/guidelines.md` — Thesis & practicum requirements
+- `pages/industry-capstone.md` — Industry Capstone content
 - `pages/timeline.md` — Timeline page
 - `pages/faq.md` — Frequently asked questions
 - `pages/resources.md` — Forms, links, past projects

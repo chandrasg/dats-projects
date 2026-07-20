@@ -8,6 +8,10 @@ permalink: /get-started/
 
 Follow these steps to enroll in DATS 5990 (Practicum) or DATS 9990 (Thesis).
 
+<div class="info-box">
+<strong>Two ways to do a project for credit.</strong> The steps below cover the <strong>faculty-advised</strong> Practicum and Thesis, where you find a Penn advisor and propose your own project. If you'd rather work on a company-proposed project through the new <strong>Industry Capstone (DATS 5990-002)</strong>, it has a separate application process — see the <a href="{{ '/industry-capstone/' | relative_url }}">Industry Capstone page</a>.
+</div>
+
 ## Before You Begin
 
 <div class="info-box">
@@ -89,8 +93,10 @@ After enrollment, the first four weeks should focus on:
 
 Don't wait until month two to discover that your data doesn't exist or your approach doesn't work. The first few weeks are for finding out.
 
-## Choosing Between Thesis and Practicum
+## Choosing Your Path
 
 **Choose Thesis (DATS 9990) if** you want to lead an entire research project from start to finish, your work could result in a peer-reviewed publication, and you're ready for a two-semester commitment.
 
 **Choose Practicum (DATS 5990) if** you want to contribute meaningfully to a research project (potentially as part of a larger team) or prefer a shorter engagement (one semester, one CU). Industry-based projects are also an option here, as long as they produce an academically evaluable product.
+
+**Choose Industry Capstone (DATS 5990-002) if** you want to work on a company-proposed problem with an industry sponsor, meet the eligibility bar (GPA ≥ 3.6, at least one semester completed), and are ready for a structured weekly cadence. See the [Industry Capstone page]({{ '/industry-capstone/' | relative_url }}) for details and how to apply.

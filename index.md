@@ -15,9 +15,9 @@ full_width: true
 
 <div class="container" markdown="1">
 
-## Thesis vs. Practicum at a Glance
+## Choose Your Path
 
-<div class="compare-grid">
+<div class="compare-grid three-col">
 <div class="compare-card">
 <span class="tag">DATS 5990</span>
 <h3>Practicum</h3>
@@ -29,6 +29,19 @@ full_width: true
 <li><strong>Presentation:</strong> Poster session</li>
 <li><strong>Industry projects:</strong> Allowed with academic product</li>
 </ul>
+</div>
+<div class="compare-card industry">
+<span class="tag">DATS 5990-002</span>
+<h3>Industry Capstone</h3>
+<p>A sponsor-proposed project mentored by your industry sponsor and DATS teaching staff, with admission by application and interview.</p>
+<ul>
+<li><strong>Credits:</strong> 1 CU per semester (max 2 total)</li>
+<li><strong>Sponsor:</strong> Industry partner + DATS teaching staff</li>
+<li><strong>Admission:</strong> Application + interviews (GPA ≥ 3.6)</li>
+<li><strong>Report:</strong> Sponsor deliverables + final presentation</li>
+<li><strong>New:</strong> Launching Fall 2026</li>
+</ul>
+<a href="{{ '/industry-capstone/' | relative_url }}">Learn more &rarr;</a>
 </div>
 <div class="compare-card">
 <span class="tag">DATS 9990</span>
@@ -57,6 +70,7 @@ Both courses count as technical and depth area electives toward the ten required
 <li><a href="{{ '/get-started/#what-makes-a-good-project' | relative_url }}">What makes a good project</a></li>
 <li><a href="{{ '/resources/' | relative_url }}">Browse past reports & forms</a></li>
 <li><a href="{{ '/get-started/#enrollment-steps' | relative_url }}">Enrollment steps</a></li>
+<li><a href="{{ '/industry-capstone/' | relative_url }}">Industry Capstone (sponsor projects)</a></li>
 </ul>
 </div>
 <div class="phase-card">

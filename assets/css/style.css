@@ -115,10 +115,10 @@ img { max-width: 100%; height: auto; }
 .site-title-main { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.01em; }
 .site-title-sub { font-size: 0.75rem; opacity: 0.7; font-weight: 400; }
 
-.site-nav { display: flex; gap: 0.25rem; }
+.site-nav { display: flex; gap: 0.15rem; }
 .site-nav a {
   color: rgba(255,255,255,0.8);
-  padding: 0.4rem 0.75rem;
+  padding: 0.4rem 0.6rem;
   border-radius: var(--radius);
   font-size: 0.9rem;
   font-weight: 500;
@@ -185,6 +185,7 @@ li { margin-bottom: 0.35rem; }
   gap: 1.5rem;
   margin: 1.5rem 0 2rem;
 }
+.compare-grid.three-col { grid-template-columns: repeat(3, 1fr); }
 
 /* --- Phase wayfinding (Before / During / After) --- */
 .phase-grid {
@@ -219,6 +220,7 @@ li { margin-bottom: 0.35rem; }
   padding: 1.5rem;
   border-top: 3px solid var(--penn-navy);
 }
+.compare-card.industry { border-top-color: var(--penn-red); }
 .compare-card h3 {
   margin-top: 0;
   font-size: 1.1rem;
@@ -406,7 +408,7 @@ details.faq-item summary::-webkit-details-marker { display: none; }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
-  .compare-grid, .contact-grid, .footer-grid, .phase-grid { grid-template-columns: 1fr; }
+  .compare-grid, .compare-grid.three-col, .contact-grid, .footer-grid, .phase-grid { grid-template-columns: 1fr; }
   .hero { padding: 2rem 0; }
   .hero h1 { font-size: 1.7rem; }
   h1 { font-size: 1.6rem; }

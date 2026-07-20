@@ -78,6 +78,27 @@ Your grade combines your advisor's assessment with the Projects Director's revie
 </details>
 
 <details class="faq-item">
+<summary>What is the Industry Capstone (DATS 5990-002) and how is it different from the Practicum?</summary>
+<div class="faq-answer">
+The Industry Capstone is a variant of the Practicum where your project comes from an industry sponsor instead of a Penn faculty advisor. You're admitted by application and sponsor interviews rather than an advisor agreement, and the semester runs on a structured cadence — weekly check-ins with your sponsor and with DATS teaching staff, plus quarter reports graded by your sponsor and forwarded to teaching staff. See the <a href="{{ '/industry-capstone/' | relative_url }}">Industry Capstone page</a> for full details.
+</div>
+</details>
+
+<details class="faq-item">
+<summary>How do I apply for the Industry Capstone?</summary>
+<div class="faq-answer">
+Review the posted sponsor projects, then submit your transcript, resume/CV, and a short statement of interest. If a sponsor wants to move forward, you'll have a phone interview followed by an interview at their HQ or via Zoom. See <a href="{{ '/industry-capstone/#how-to-apply' | relative_url }}">How to Apply</a> for the full process.
+</div>
+</details>
+
+<details class="faq-item">
+<summary>Is the Industry Capstone paid?</summary>
+<div class="faq-answer">
+No. The Industry Capstone is for academic credit only, consistent with the program-wide rule that you cannot be paid for a project you're also enrolling for credit. Work is remote from the employer's perspective. Any internship or full-time offer after the capstone is at the sponsor's discretion.
+</div>
+</details>
+
+<details class="faq-item">
 <summary>What are the presentation guidelines?</summary>
 <div class="faq-answer">
 <p><strong>Thesis:</strong> Prepare a 5-minute presentation for DATS Presentation Day.</p>

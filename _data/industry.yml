@@ -1,0 +1,20 @@
+# Industry Capstone (DATS 5990-002) — application cycle data.
+# Update dates each cycle. Paste the application/projects URLs between the
+# quotes when available; while empty, the site shows a "contact the Program
+# Manager" fallback automatically.
+
+cycle_name: "Fall 2026"
+application_url: ""
+projects_url: ""
+
+dates:
+  - milestone: "Review sponsor projects & submit your application"
+    date: "By Sunday, July 26, 2026"
+    note: "More projects may be added during the cycle — check back before you apply."
+  - milestone: "Sponsor interviews begin"
+    date: "Monday, July 27, 2026"
+    note: "Phone interview first, then an interview at the employer's HQ or via Zoom."
+  - milestone: "Fall semester begins — projects commence"
+    date: "Monday, August 25, 2026"
+  - milestone: "Course add/drop deadline"
+    date: "Tuesday, September 8, 2026"

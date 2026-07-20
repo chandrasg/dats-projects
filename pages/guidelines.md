@@ -28,6 +28,8 @@ Any Penn faculty member can serve as your advisor. If your advisor is outside SE
 ### Industry Projects
 Industry-proposed practicums are acceptable provided they produce a tangible, academically-based product that the Projects Director can evaluate — for example, a research paper, a rigorous evaluation of a novel method, or a reproducible analysis with clear findings. A consulting deliverable (a dashboard, a report without a research question, or data cleaning for a client) does not qualify on its own. You cannot receive payment for a project you are also enrolling for practicum credit.
 
+This covers **self-arranged** industry projects within the faculty-advised practicum. If you want a **Penn-matched** sponsor project instead, see the [Industry Capstone (DATS 5990-002)]({{ '/industry-capstone/' | relative_url }}) page — a separate section with its own application process, structure, and grading.
+
 ### Team Projects
 You may work as a team of 2–3 students if your faculty advisor approves and each team member has a clearly distinct set of deliverables. This should be specified in the advisor agreement form.
 
