@@ -1,8 +1,8 @@
 # Update this file each semester with new dates.
 # Edit directly on GitHub: click the pencil icon, change dates, commit.
 
-current_semester: "Spring 2026"
-current_key: "spring_2026"
+current_semester: "Summer 2026"
+current_key: "summer_2026"
 
 spring_2026:
   - milestone: "Submit project/thesis form & advisor agreement"
