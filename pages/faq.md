@@ -80,7 +80,7 @@ Your grade combines your advisor's assessment with the Projects Director's revie
 <details class="faq-item">
 <summary>What is the Industry Capstone (DATS 5990-002) and how is it different from the Practicum?</summary>
 <div class="faq-answer">
-The Industry Capstone is a variant of the Practicum where your project comes from an industry sponsor instead of a Penn faculty advisor. You're admitted by application and sponsor interviews rather than an advisor agreement, and the semester runs on a structured cadence — weekly check-ins with your sponsor and with DATS teaching staff, plus quarter reports graded by your sponsor and forwarded to teaching staff. See the <a href="{{ '/industry-capstone/' | relative_url }}">Industry Capstone page</a> for full details.
+The Industry Capstone is a variant of the Practicum where your project comes from an industry sponsor instead of a Penn faculty advisor. You're admitted by application and sponsor interviews rather than an advisor agreement, and the semester runs on a structured cadence — weekly check-ins with your sponsor, plus quarter reports graded by your sponsor and forwarded to teaching staff. See the <a href="{{ '/industry-capstone/' | relative_url }}">Industry Capstone page</a> for full details.
 </div>
 </details>
 

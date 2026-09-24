@@ -90,7 +90,7 @@ Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) 
 <tr>
 <td>Cadence</td>
 <td>Mid-semester check-in</td>
-<td>Weekly check-ins + quarter reports</td>
+<td>Weekly sponsor check-ins + quarter reports</td>
 <td>Mid-semester check-in each semester</td>
 </tr>
 <tr>
@@ -177,9 +177,8 @@ Once you're matched with a sponsor, {{ site.data.contacts.program_manager.name }
 
 The Industry Capstone runs on a more structured cadence than the faculty-advised Practicum, designed to keep you, your sponsor, and the teaching staff aligned throughout the semester:
 
-- **Weekly check-in report** — a report under one page, due at the end of each week, covering your progress, next steps, and roadblocks. It's shared with your sponsor and the teaching staff and graded on good-faith completion.
+- **Weekly check-in report** — a report under one page, due at the end of each week, covering your progress, next steps, and roadblocks. It's shared with your sponsor only and graded on good-faith completion.
 - **Ongoing sponsor communication** — regular meetings, calls, or messages with your sponsor beyond the weekly report.
-- **Weekly teaching-staff check-in (required)** — a check-in with DATS teaching staff of no more than 30 minutes, scheduled by you.
 - **Quarter reports & presentations** — in weeks 4, 8, and 12, in a format set by your sponsor (a slide deck, technical report, or code/methodology documentation). Your sponsor grades these and forwards the grade to teaching staff.
 - **Final deliverables** — these go to your sponsor first: a presentation, a written report (in a format your sponsor specifies), and your final work product (e.g., dashboards, models, insights). Your sponsor then indicates what may be shared with teaching staff, who receive an abbreviated presentation and an abbreviated technical report with sensitive data omitted — plus a roughly one-page personal reflection on your takeaways.
 
@@ -199,12 +198,11 @@ The Industry Capstone runs on a more structured cadence than the faculty-advised
 ### Policies
 
 - Occasional one-off "special assignments" are required; missing one without a valid excuse is a 10% penalty to your final grade
-- Each missed weekly teaching-staff check-in without a valid excuse is a 15% penalty
 - The course is not curved and cannot be taken Pass/Fail
 - No regrade requests — stay aligned with your sponsor throughout the semester instead
 
 <div class="info-box warning">
-Communication is the #1 success factor in this course — the structure above (weekly reports, weekly check-ins, quarter reports) exists to guarantee it.
+Communication is the #1 success factor in this course — the structure above (weekly reports to your sponsor, quarter reports) exists to guarantee it.
 </div>
 
 ## Intellectual Property & Confidentiality
