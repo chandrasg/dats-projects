@@ -1,0 +1,37 @@
+{%- comment -%}
+  Milestone tables for the semester(s) that haven't ended yet.
+  Usage: {% include term-tables.html max=1 prefix="Current Semester: " %}
+  The build emits every semester whose `ends` date is still ahead; a script in
+  the layout re-checks against the visitor's date, so a past semester never
+  shows even if the site hasn't been rebuilt.
+{%- endcomment -%}
+{%- assign today = site.time | date: '%Y-%m-%d' -%}
+{%- assign max_terms = include.max | default: 1 -%}
+{%- assign shown = 0 -%}
+<div class="term-list" data-max="{{ max_terms }}">
+{%- for term in site.data.timeline.terms -%}
+{%- assign ends = term.ends | date: '%Y-%m-%d' -%}
+{%- if ends >= today %}
+<div class="term" data-term-end="{{ ends }}"{% if shown >= max_terms %} hidden{% endif %}>
+<h2>{{ include.prefix }}{{ term.name }}</h2>
+<div class="table-scroll">
+<table class="timeline-table">
+<thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
+<tbody>
+{%- for item in site.data.timeline[term.key] %}
+<tr>
+<td>{{ item.milestone }}</td>
+<td>{{ item.date }}{% if item.note %}<div class="note">{{ item.note }}</div>{% endif %}</td>
+</tr>
+{%- endfor %}
+</tbody>
+</table>
+</div>
+</div>
+{%- assign shown = shown | plus: 1 -%}
+{%- endif -%}
+{%- endfor %}
+<div class="info-box term-empty"{% if shown > 0 %} hidden{% endif %}>
+Dates for the upcoming semester will be posted here soon. Questions? Contact <a href="mailto:{{ site.data.contacts.program_manager.email }}">{{ site.data.contacts.program_manager.name }}</a>.
+</div>
+</div>

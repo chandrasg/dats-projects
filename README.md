@@ -6,8 +6,17 @@ Live at: https://chandrasg.github.io/dats-projects
 
 ## What to Update and When
 
-### Each semester — `_data/timeline.yml`
-Update milestone dates for the new semester. Add a new block (e.g., `spring_2027:`) following the same format, then update **both** `current_semester` (the label) and `current_key` (the block name) at the top — changing only one leaves the Home and Timeline pages showing the wrong dates. To preview the following semester on the Timeline page, fill in `next_semester` and `next_key`; leave them as `""` to hide it. You can edit this directly on GitHub using the pencil icon — no local setup needed.
+### Semester dates — `_data/timeline.yml`
+**The site switches semesters automatically.** Each semester under `terms` has an `ends` date; the Home page shows the earliest semester that hasn't ended, and the Timeline page also shows the next one. A semester drops off the day after its `ends` date, judged by the visitor's own clock, so stale dates never show even without a rebuild. If no upcoming semester has been added, the site says dates will be posted soon rather than showing old ones.
+
+To add a semester: add an entry under `terms` (oldest first; `key` matches the milestone block name, `ends` is `YYYY-MM-DD`), then add the milestone block (copy an existing one). You can edit this directly on GitHub using the pencil icon — no local setup needed.
+
+A monthly scheduled job reads the [Penn Engineering Graduate Academic Calendar](https://grad.engineering.upenn.edu/graduate-academic-calendar/), drafts upcoming semesters and fills in "TBD" dates, and opens a pull request — review and merge it to publish. It derives dates by these rules, and never changes a date a person has already set:
+- Submit project form & advisor agreement — by the course selection (add) deadline
+- Mid-semester check-in — by the "drop period ends" date
+- Final check-in (project report due) — before the last day to withdraw
+- Thesis submission — the calendar's thesis due date for that term's graduates
+- DATS Presentation Day — set by the program; stays "TBD" until someone fills it in
 
 ### Contact changes — `_data/contacts.yml`
 Update faculty or staff names, emails, or roles here. All contact info across the site (home page, footer) pulls from this single file.

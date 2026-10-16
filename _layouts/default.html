@@ -20,5 +20,27 @@
   </main>
 
   {% include footer.html %}
+  <script>
+  // Show only semesters that haven't ended yet, judged by the visitor's date,
+  // so the dates never go stale between site rebuilds.
+  function showCurrentTerms(today) {
+    if (!today) {
+      var d = new Date();
+      today = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+    }
+    document.querySelectorAll('.term-list').forEach(function (list) {
+      var max = parseInt(list.getAttribute('data-max'), 10) || 1;
+      var shown = 0;
+      list.querySelectorAll('.term').forEach(function (term) {
+        var show = term.getAttribute('data-term-end') >= today && shown < max;
+        term.hidden = !show;
+        if (show) shown++;
+      });
+      var empty = list.querySelector('.term-empty');
+      if (empty) empty.hidden = shown > 0;
+    });
+  }
+  showCurrentTerms();
+  </script>
 </body>
 </html>

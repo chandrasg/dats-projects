@@ -45,6 +45,8 @@ summary:focus-visible {
 
 img { max-width: 100%; height: auto; }
 
+[hidden] { display: none !important; }
+
 .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
 
 /* --- Screen-reader-only utility --- */

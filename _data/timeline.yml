@@ -1,47 +1,28 @@
-# Update this file each semester with new dates.
-# Edit directly on GitHub: click the pencil icon, change dates, commit.
+# DATS Practicum & Thesis — semester dates.
 #
-# current_semester / current_key: the semester shown as "current" on the Home
-#   and Timeline pages. Change BOTH together; current_key must match a block
-#   name below (e.g., fall_2026).
-# next_semester / next_key: optional — shows the next semester's dates on the
-#   Timeline page once they're posted. Leave both as "" to hide.
+# THE SITE SWITCHES SEMESTERS AUTOMATICALLY. The Home page shows the earliest
+# semester under `terms` whose `ends` date hasn't passed; the Timeline page also
+# shows the one after it. A semester drops off on its own the day after its
+# `ends` date — even if nobody edits or rebuilds the site.
+#
+# TO ADD A SEMESTER:
+#   1. Add an entry under `terms` (keep them oldest first). `key` must match a
+#      milestone block below; `ends` is YYYY-MM-DD, normally the "term ends"
+#      date on the Penn Engineering Graduate Academic Calendar.
+#   2. Add the milestone block (copy an existing one and change the dates).
+#
+# A monthly scheduled job drafts upcoming semesters (and fills in "TBD" dates)
+# from https://grad.engineering.upenn.edu/graduate-academic-calendar/ and opens
+# a pull request for review. You can also edit here directly on GitHub with the
+# pencil icon.
 
-current_semester: "Fall 2026"
-current_key: "fall_2026"
-
-next_semester: ""
-next_key: ""
-
-spring_2026:
-  - milestone: "Submit project/thesis form & advisor agreement"
-    date: "By January 22, 2026"
-    note: "January 27th is the last day to add a course and last day to drop for full refund."
-  - milestone: "Mid-semester check-in with advisor"
-    date: "By February 23, 2026"
-    note: "Brief PowerPoint, progress demo, or report outline. February 23rd is the last day to drop for 50% refund."
-  - milestone: "Final check-in with advisor & Projects Director"
-    date: "Before March 30, 2026"
-    note: "Project report due. March 30th is the last day to withdraw from a course."
-  - milestone: "Thesis submission deadline"
-    date: "May 4, 2026"
-    note: "Submit completed/signed thesis electronically to grad-affairs@seas.upenn.edu."
-  - milestone: "DATS Presentation Day"
-    date: "May 8, 2026"
-    note: "Thesis talks 10:00–11:30 AM, Lunch, Practicum posters 12–1:00 PM. Location: AGH 105. Interim Reports & Poster PDFs due EOD May 4th (Google Form). Thesis & pre-recorded Practicum Presentations due EOD May 6th (must be pre-approved by Dr. Guntuku)."
-    
-summer_2026:
-  - milestone: "Submit project/thesis form & advisor agreement"
-    date: "By June 5, 2026"
-    note: "June 10, 2026 is the last day to add a course and last day to drop for full refund."
-  - milestone: "Mid-semester check-in with advisor"
-    date: "By June 24, 2026"
-    note: "Brief PowerPoint, progress demo, or report outline. June 24th is the last day to drop for 50% refund."
-  - milestone: "Final check-in with advisor & Projects Director"
-    date: "Before August 2, 2026"
-    note: "Project report due. August 2 is the last day to withdraw from a course."
-  - milestone: "Deliverables Due"
-    date: "August 7, 2026"
+terms:
+  - key: fall_2026
+    name: "Fall 2026"
+    ends: 2026-12-17
+  - key: spring_2027
+    name: "Spring 2027"
+    ends: 2027-05-17
 
 fall_2026:
   - milestone: "Submit project/thesis form & advisor agreement"
@@ -54,8 +35,25 @@ fall_2026:
     date: "Before November 24, 2026"
     note: "Project report due."
   - milestone: "Thesis submission deadline"
-    date: "December TBD, 2026"
+    date: "December 10, 2026"
     note: "Submit completed/signed thesis electronically to grad-affairs@seas.upenn.edu."
   - milestone: "DATS Presentation Day"
     date: "December TBD, 2026"
     note: "Thesis talks 10:30–11:30 AM, Lunch, Practicum posters 12–1:30 PM. First-semester thesis students present an intermediate update."
+
+spring_2027:
+  - milestone: "Submit project/thesis form & advisor agreement"
+    date: "By February 2, 2027"
+    note: "February 2 is the last day to add a course and to drop one for a full refund — the absolute last day. Aim to submit at the start of the semester."
+  - milestone: "Mid-semester check-in with advisor"
+    date: "By March 1, 2027"
+    note: "Brief PowerPoint, progress demo, or report outline. March 1 is the last day to drop a course."
+  - milestone: "Final check-in with advisor & Projects Director"
+    date: "Before April 5, 2027"
+    note: "Project report due. April 5 is the last day to withdraw from a course."
+  - milestone: "Thesis submission deadline"
+    date: "May TBD, 2027"
+    note: "Submit completed/signed thesis electronically to grad-affairs@seas.upenn.edu."
+  - milestone: "DATS Presentation Day"
+    date: "May TBD, 2027"
+    note: "Thesis talks and practicum poster session. First-semester thesis students present an intermediate update."

@@ -6,41 +6,7 @@ permalink: /timeline/
 
 # Timeline & Key Dates
 
-## {{ site.data.timeline.current_semester }}
-
-<div class="table-scroll">
-<table class="timeline-table">
-<thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
-<tbody>
-{% assign current_items = site.data.timeline[site.data.timeline.current_key] %}
-{% for item in current_items %}
-<tr>
-<td>{{ item.milestone }}</td>
-<td>{{ item.date }}<div class="note">{{ item.note }}</div></td>
-</tr>
-{% endfor %}
-</tbody>
-</table>
-</div>
-
-{% if site.data.timeline.next_key and site.data.timeline.next_key != "" %}
-## {{ site.data.timeline.next_semester }}
-
-<div class="table-scroll">
-<table class="timeline-table">
-<thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
-<tbody>
-{% assign next_items = site.data.timeline[site.data.timeline.next_key] %}
-{% for item in next_items %}
-<tr>
-<td>{{ item.milestone }}</td>
-<td>{{ item.date }}<div class="note">{{ item.note }}</div></td>
-</tr>
-{% endfor %}
-</tbody>
-</table>
-</div>
-{% endif %}
+{% include term-tables.html max=2 %}
 
 <div class="info-box">
 <strong>Accelerated Master's students</strong> still enrolled in their Penn undergrad program follow the undergraduate calendar and their undergraduate home school's policies.

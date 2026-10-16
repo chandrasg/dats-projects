@@ -94,22 +94,7 @@ DATS 5990 and DATS 9990 both count as technical and depth area electives toward 
 </div>
 </div>
 
-## Current Semester: {{ site.data.timeline.current_semester }}
-
-<div class="table-scroll">
-<table class="timeline-table">
-<thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
-<tbody>
-{% assign current_items = site.data.timeline[site.data.timeline.current_key] %}
-{% for item in current_items %}
-<tr>
-<td>{{ item.milestone }}</td>
-<td>{{ item.date }}<div class="note">{{ item.note }}</div></td>
-</tr>
-{% endfor %}
-</tbody>
-</table>
-</div>
+{% include term-tables.html max=1 prefix="Current Semester: " %}
 
 <a href="{{ '/timeline/' | relative_url }}">View full timeline &rarr;</a>
 
