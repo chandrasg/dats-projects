@@ -26,15 +26,15 @@ Students may enroll in one or two course units. One CU in a single semester is t
 Any Penn faculty member can serve as your advisor. If your advisor is outside SEAS, the Projects Director will nominally co-advise.
 
 ### Industry Projects
-Industry-proposed practicums are acceptable provided they produce a tangible, academically-based product that the Projects Director can evaluate — for example, a research paper, a rigorous evaluation of a novel method, or a reproducible analysis with clear findings. A consulting deliverable (a dashboard, a report without a research question, or data cleaning for a client) does not qualify on its own. You cannot receive payment for a project you are also enrolling for practicum credit.
+You can do a faculty-advised practicum on a project with a company you've connected with yourself, provided it produces a tangible, academically-based product that the Projects Director can evaluate — for example, a research paper, a rigorous evaluation of a novel method, or a reproducible analysis with clear findings. A consulting deliverable (a dashboard, a report without a research question, or data cleaning for a client) does not qualify on its own. You cannot receive payment for a project you are also enrolling for practicum credit.
 
-This covers **self-arranged** industry projects within the faculty-advised practicum. If you want a **Penn-matched** sponsor project instead, see the [Industry Capstone (DATS 5990-002)]({{ '/industry-capstone/' | relative_url }}) page — a separate section with its own application process, structure, and grading.
+Looking for a company project arranged through Penn instead? See the [Industry Capstone (DATS 5990-002)]({{ '/industry-capstone/' | relative_url }}) — a separate section with its own application process, structure, and grading.
 
 ### Team Projects
 You may work as a team of 2–3 students if your faculty advisor approves and each team member has a clearly distinct set of deliverables. This should be specified in the advisor agreement form.
 
 ### Mid-Semester Check-In
-You are expected to meet with your faculty advisor and the Projects Director around the mid-semester mark. Come prepared with one of: a brief slide deck showing your progress, a live demo, or a written report outline. The check-in is a calibration point — the goal is to surface problems early, not to evaluate finished work.
+Around the mid-semester mark, meet with your faculty advisor to review progress. Come prepared with one of: a brief slide deck showing your progress, a live demo, or a written report outline. The check-in is a calibration point — the goal is to surface problems early, not to evaluate finished work. The check-in is primarily with your advisor; loop in the Projects Director as needed — for example, if your scope has changed significantly.
 
 ### Report Requirements
 Your practicum report should be 5–10 pages and include:
@@ -83,6 +83,7 @@ The first semester is for building — not finishing. Focus on:
 - **Problem formulation** — sharpen your research questions into testable hypotheses
 - **Data and methods** — acquire your data, validate access, and run preliminary experiments
 - **Interim report** — submit a written interim report (typically 5–8 pages) covering your problem statement, background and related work, proposed approach, and any early results
+- **Intermediate update** — present your progress at DATS Presentation Day at the end of the semester
 
 The interim report is graded. It should demonstrate that you have a clear research direction and have made substantive early progress — not that you've finished.
 
@@ -92,13 +93,13 @@ The second semester is for completing your research and writing your thesis. Key
 
 - **Complete your core analysis** — run experiments, gather results, and interpret findings
 - **Write the full thesis** — following SEAS formatting guidelines
-- **Present your work** — 5-minute talk at DATS Presentation Day
+- **Present your final work** — 5-minute talk at DATS Presentation Day
 - **Submit** — completed and signed thesis to grad-affairs@seas.upenn.edu
 
 Work with your advisor to set clear milestones for both semesters at the start. The most common failure mode is underestimating how long writing takes — start drafting sections as you go, not only at the end.
 
 ### Mid-Semester Check-In
-Same as Practicum: meet with your faculty advisor and the Projects Director around the mid-semester mark with a slide deck, demo, or report outline. For thesis students this is particularly important in semester 1, when a scope problem caught early is fixable but caught late becomes a crisis.
+Same as Practicum: meet with your faculty advisor around the mid-semester mark with a slide deck, demo, or report outline, and loop in the Projects Director as needed. For thesis students this is particularly important in semester 1, when a scope problem caught early is fixable but caught late becomes a crisis.
 
 ### Report Requirements
 Your thesis must follow SEAS formatting guidelines: [Masters Thesis Guidelines](https://grad.seas.upenn.edu/student-handbook/masters-thesis/)
@@ -118,7 +119,10 @@ Code should be in a maintained repository with a README sufficient for someone t
 Submit your completed and signed thesis electronically to [grad-affairs@seas.upenn.edu](mailto:grad-affairs@seas.upenn.edu) by the deadline on the [Timeline]({{ '/timeline/' | relative_url }}). An approved copy also goes to the CIS Master's chair via email.
 
 ### Presentation
-Thesis students deliver a 5-minute presentation at DATS Presentation Day. Practice your talk at least twice — five minutes is harder to fill well than it sounds.
+Thesis students present at DATS Presentation Day in **both semesters**:
+
+- **End of semester 1:** an intermediate update on your progress so far.
+- **End of semester 2:** a 5-minute talk on your completed thesis. Practice it at least twice — five minutes is harder to fill well than it sounds.
 
 ### How Grades Are Determined
 Each semester is graded independently. **Semester 1** is judged mainly on the quality and completeness of your interim report, your progress on the research foundations (literature, problem formulation, data), and your advisor's assessment of engagement. **Semester 2** is judged on the quality of the final thesis, your presentation, and your overall contribution. The [Evaluation Rubric](#evaluation-rubric) below lays out the dimensions in detail — thesis work is held to the higher bar across every dimension and is additionally expected to demonstrate a novel contribution.
@@ -186,6 +190,7 @@ This rubric is a shared tool for **students and advisors**. Use it before each c
 
 - **Practicum (DATS 5990)** emphasizes a well-scoped, well-executed contribution and clear communication. "Proficient" across the board is solid practicum work.
 - **Thesis (DATS 9990)** is held to the "Proficient–Exemplary" bar across every dimension and must additionally demonstrate a **novel contribution** suitable toward a publication. In semester 1, the interim report is assessed mainly on the first three dimensions plus early results.
+- **Industry Capstone (DATS 5990-002)** uses its own grading structure — see [Grading]({{ '/industry-capstone/#grading' | relative_url }}) on the Industry Capstone page.
 
 ---
 
@@ -203,11 +208,7 @@ The advisor relationship is the most important factor in a successful thesis or 
 
 ## Deliverable Uploads
 
-All students (thesis and practicum) must upload their presentations and poster PDFs to the shared Google Drive folder before Presentation Day. The upload link will be shared each semester.
-
-<div class="info-box">
-<strong>Accelerated Master's students</strong> still enrolled in their Penn undergrad program follow the undergraduate calendar and their undergraduate home school's policies.
-</div>
+All students (thesis and practicum) must upload their slides or poster PDF — and, in thesis semester 1, the interim report — before Presentation Day, using the upload links shared each semester. Check the [Timeline]({{ '/timeline/' | relative_url }}) for exact deadlines.
 
 ---
 

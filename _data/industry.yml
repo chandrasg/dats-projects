@@ -4,6 +4,10 @@
 # Manager" fallback automatically.
 
 cycle_name: "Fall 2026"
+
+# Set to false once the application deadline passes — the page then shows a
+# "this cycle has closed" notice. Set back to true when the next cycle opens.
+applications_open: false
 application_url: ""
 projects_url: ""
 
@@ -15,6 +19,6 @@ dates:
     date: "Monday, July 27, 2026"
     note: "Phone interview first, then an interview at the employer's HQ or via Zoom."
   - milestone: "Fall semester begins — projects commence"
-    date: "Monday, August 25, 2026"
+    date: "Tuesday, August 25, 2026"
   - milestone: "Course add/drop deadline"
     date: "Tuesday, September 8, 2026"

@@ -43,8 +43,8 @@ permalink: /resources/
 </div>
 
 <div class="resource-card">
-<h4><a href="https://web.sas.upenn.edu/data-science/data-science-for-good/" target="_blank">Data Science for Social Good (DSSG) Projects &rarr;</a></h4>
-<p>Socially impactful project opportunities through Penn's DSSG initiative.</p>
+<h4><a href="https://datascience.sas.upenn.edu/programs/dssg/current-dssg-projects" target="_blank">Data Science for Social Good (DSSG) Projects &rarr;</a></h4>
+<p>Current social-impact data science projects funded by Penn's Data Driven Discovery Initiative — a good way to find faculty working on problems you care about.</p>
 </div>
 
 <div class="resource-card">
@@ -61,7 +61,7 @@ permalink: /resources/
 
 ## Poster Presentation {#poster-presentation}
 
-Practicum students present a research poster at DATS Presentation Day. There is no required template — aim for a **24" × 36" landscape** format (standard US conference size). Design guidelines:
+Practicum students present a research poster at DATS Presentation Day. There is no required template, but posters should be **24" × 36", landscape**. Design guidelines:
 
 - **Structure:** Title + authors across the top; 3–4 columns below covering motivation, approach, results, and takeaways
 - **Text:** Keep it under ~800 words — posters are for conversation, not reading. Use bullets and short phrases
@@ -71,7 +71,7 @@ Practicum students present a research poster at DATS Presentation Day. There is 
 
 <div class="resource-card">
 <h4><a href="https://www.canva.com/posters/templates/research/" target="_blank">Canva Research Poster Templates &rarr;</a></h4>
-<p>Free, browser-based templates. Filter by size (set custom: 48×36 in) and export as PDF for printing.</p>
+<p>Free, browser-based templates. Set a custom size of 36 × 24 in (landscape) and export as PDF for printing.</p>
 </div>
 
 <div class="resource-card">

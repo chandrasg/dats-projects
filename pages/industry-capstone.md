@@ -6,7 +6,7 @@ permalink: /industry-capstone/
 
 # Industry Capstone
 
-The Industry Capstone (DATS 5990-002) is a variant of the Practicum in which your project comes from an industry sponsor rather than a Penn faculty advisor. Debuting in Fall 2026, it's offered in partnership with Penn Engineering's StAGE (Strategic Advisory Group and Expertise) initiative. Throughout the semester you're mentored by DATS teaching staff — {{ site.data.contacts.project_director.name }} (Faculty Director) and TAs — working alongside your sponsor.
+The Industry Capstone (DATS 5990-002) is a variant of the Practicum in which your project comes from an industry sponsor rather than a Penn faculty advisor. Launched in Fall 2026, it's offered in partnership with Penn Engineering's StAGE (Strategic Advisory Group and Expertise) initiative. Throughout the semester you're mentored by DATS teaching staff — {{ site.data.contacts.project_director.name }} (Faculty Director) and TAs — working alongside your sponsor.
 
 <div class="info-box">
 Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) and Thesis (DATS 9990) are covered on the <a href="{{ '/get-started/' | relative_url }}">Get Started</a> page.
@@ -19,10 +19,10 @@ Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) 
 <li><a href="#eligibility">Eligibility</a></li>
 <li><a href="#how-the-three-paths-compare">How the Three Paths Compare</a></li>
 <li><a href="#how-to-apply">How to Apply</a></li>
-<li><a href="#key-dates-fall-2026">Key Dates — {{ site.data.industry.cycle_name }}</a></li>
+<li><a href="#key-dates">Key Dates — {{ site.data.industry.cycle_name }}</a></li>
 <li><a href="#during-the-semester">During the Semester</a></li>
 <li><a href="#grading">Grading</a></li>
-<li><a href="#intellectual-property-confidentiality">Intellectual Property &amp; Confidentiality</a></li>
+<li><a href="#ip-confidentiality">Intellectual Property &amp; Confidentiality</a></li>
 <li><a href="#after-the-capstone">After the Capstone</a></li>
 <li><a href="#questions">Questions?</a></li>
 </ul>
@@ -117,6 +117,12 @@ Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) 
 
 ## How to Apply
 
+{% if site.data.industry.applications_open == false %}
+<div class="info-box warning">
+<strong>Applications for the {{ site.data.industry.cycle_name }} cycle have closed.</strong> Dates for the next cycle will be posted on this page when they're announced. Questions? Contact <a href="mailto:{{ site.data.contacts.program_manager.email }}">{{ site.data.contacts.program_manager.name }}</a>.
+</div>
+{% endif %}
+
 <ol class="steps">
 <li>
 <strong>Review the sponsor projects</strong><br>
@@ -157,7 +163,11 @@ Once you're matched with a sponsor, {{ site.data.contacts.program_manager.name }
 </li>
 </ol>
 
-## Key Dates — {{ site.data.industry.cycle_name }}
+## Key Dates — {{ site.data.industry.cycle_name }} {#key-dates}
+
+{% if site.data.industry.applications_open == false %}
+*The {{ site.data.industry.cycle_name }} cycle has closed; these dates are shown for reference.*
+{% endif %}
 
 <div class="table-scroll">
 <table class="timeline-table">
@@ -205,7 +215,7 @@ The Industry Capstone runs on a more structured cadence than the faculty-advised
 Communication is the #1 success factor in this course — the structure above (weekly reports to your sponsor, quarter reports) exists to guarantee it.
 </div>
 
-## Intellectual Property & Confidentiality
+## Intellectual Property & Confidentiality {#ip-confidentiality}
 
 Some sponsor projects require special training (for example, in privacy or HIPAA compliance), a confidentiality agreement, and assignment of your IP rights in commercial applications of the work to the sponsor. In all cases, you retain the right to use your work for research and publication.
 

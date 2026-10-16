@@ -23,14 +23,14 @@ No. You should take 1 CU of Thesis in two consecutive semesters.
 <details class="faq-item">
 <summary>When is the earliest I can start a Thesis or Practicum?</summary>
 <div class="faq-answer">
-Students typically do a thesis or practicum in their 2nd year (2nd or 3rd semester).
+Usually your 2nd semester at the earliest, since you should first complete at least one elective in your project's application domain. Most students start in their 2nd or 3rd semester. If you're planning a thesis, start no later than your second-to-last semester — it runs over two consecutive semesters.
 </div>
 </details>
 
 <details class="faq-item">
 <summary>If I'm working on a practicum or thesis across two semesters, do I get a letter grade for both semesters?</summary>
 <div class="faq-answer">
-Yes. You receive a letter grade each semester and need to submit deliverables — a final report and a presentation or poster — at the end of each semester. Work with your faculty advisor to clearly define deliverables for each semester. At the end of the semester, your advisor will be consulted on their assessment of your progress and a grade will be assigned accordingly.
+Yes. You receive a letter grade each semester and submit deliverables at the end of each — a report (for thesis students, the interim report in semester 1) and a presentation or poster at DATS Presentation Day. Work with your faculty advisor to clearly define deliverables for each semester. At the end of the semester, your advisor will be consulted on their assessment of your progress and a grade will be assigned accordingly.
 </div>
 </details>
 
@@ -101,8 +101,8 @@ No. The Industry Capstone is for academic credit only, consistent with the progr
 <details class="faq-item">
 <summary>What are the presentation guidelines?</summary>
 <div class="faq-answer">
-<p><strong>Thesis:</strong> Prepare a 5-minute presentation for DATS Presentation Day.</p>
+<p><strong>Thesis:</strong> You present at DATS Presentation Day in both semesters — an intermediate update at the end of your first semester, and a 5-minute talk on your completed thesis at the end of your second.</p>
 <p><strong>Practicum:</strong> Present a poster (24 × 36 inches, landscape orientation). Print at <a href="https://cets.seas.upenn.edu/answers/posters.html" target="_blank">CETS</a> — contact the Program Manager for the budget code. Easels and poster board will be provided. See the <a href="{{ '/resources/' | relative_url }}#poster-presentation">Resources page</a> for templates and design tips.</p>
-<p>All students upload their presentations/posters to the shared Google Drive folder before the event. Check the <a href="{{ '/timeline/' | relative_url }}">Timeline</a> for specific deadlines.</p>
+<p>All students upload their slides or poster PDF before the event, using the upload links shared each semester. Check the <a href="{{ '/timeline/' | relative_url }}">Timeline</a> for specific deadlines.</p>
 </div>
 </details>

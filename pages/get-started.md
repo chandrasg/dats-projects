@@ -6,7 +6,7 @@ permalink: /get-started/
 
 # Get Started
 
-Follow these steps to enroll in DATS 5990 (Practicum) or DATS 9990 (Thesis).
+Follow these steps to enroll in DATS 5990-001 (Practicum) or DATS 9990 (Thesis).
 
 <div class="info-box">
 <strong>Two ways to do a project for credit.</strong> The steps below cover the <strong>faculty-advised</strong> Practicum and Thesis, where you find a Penn advisor and propose your own project. If you'd rather work on a company-proposed project through the new <strong>Industry Capstone (DATS 5990-002)</strong>, it has a separate application process — see the <a href="{{ '/industry-capstone/' | relative_url }}">Industry Capstone page</a>.
@@ -15,7 +15,7 @@ Follow these steps to enroll in DATS 5990 (Practicum) or DATS 9990 (Thesis).
 ## Before You Begin
 
 <div class="info-box">
-Students typically pursue a thesis or practicum in their 2nd year (2nd or 3rd semester). You should complete at least one elective course in your project's application domain before starting.<br><br>
+Most students start a thesis or practicum in their 2nd or 3rd semester. You should complete at least one elective course in your project's application domain before starting. A thesis runs over two consecutive semesters, so start it no later than your second-to-last semester.<br><br>
 <strong>Start one semester early.</strong> Begin thinking about your project area and identifying potential advisors the semester before you plan to enroll. This gives you enough time to explore options, have early conversations with faculty, and scope the project well before the add/drop deadline. Before writing your proposal, read 2–3 past reports from the <a href="{{ '/resources/' | relative_url }}">Resources page</a> — they're the best way to calibrate what a realistic scope looks like.
 </div>
 
@@ -56,7 +56,7 @@ Share your proposal with <a href="mailto:{{ site.data.contacts.project_director.
 </li>
 <li>
 <strong>Request the course in Path@Penn</strong><br>
-Request either <strong>DATS 5990</strong> (Practicum) or <strong>DATS 9990</strong> (Thesis) in Path@Penn. Once approved, Staci Kaplan (Program Manager) will issue your permit.
+Request <strong>DATS 5990-001</strong> (Practicum) or <strong>DATS 9990</strong> (Thesis) in Path@Penn. Section 002 of DATS 5990 is the Industry Capstone, which you join through its own application process — don't request it. Once approved, {{ site.data.contacts.program_manager.name }} ({{ site.data.contacts.program_manager.title }}) will issue your permit.
 </li>
 </ol>
 

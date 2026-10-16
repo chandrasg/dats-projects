@@ -1,14 +1,23 @@
 # Update this file each semester with new dates.
 # Edit directly on GitHub: click the pencil icon, change dates, commit.
+#
+# current_semester / current_key: the semester shown as "current" on the Home
+#   and Timeline pages. Change BOTH together; current_key must match a block
+#   name below (e.g., fall_2026).
+# next_semester / next_key: optional — shows the next semester's dates on the
+#   Timeline page once they're posted. Leave both as "" to hide.
 
-current_semester: "Summer 2026"
-current_key: "summer_2026"
+current_semester: "Fall 2026"
+current_key: "fall_2026"
+
+next_semester: ""
+next_key: ""
 
 spring_2026:
   - milestone: "Submit project/thesis form & advisor agreement"
     date: "By January 22, 2026"
     note: "January 27th is the last day to add a course and last day to drop for full refund."
-  - milestone: "Mid-term check-in with advisor & Projects Director"
+  - milestone: "Mid-semester check-in with advisor"
     date: "By February 23, 2026"
     note: "Brief PowerPoint, progress demo, or report outline. February 23rd is the last day to drop for 50% refund."
   - milestone: "Final check-in with advisor & Projects Director"
@@ -25,7 +34,7 @@ summer_2026:
   - milestone: "Submit project/thesis form & advisor agreement"
     date: "By June 5, 2026"
     note: "June 10, 2026 is the last day to add a course and last day to drop for full refund."
-  - milestone: "Mid-term check-in with advisor & Projects Director"
+  - milestone: "Mid-semester check-in with advisor"
     date: "By June 24, 2026"
     note: "Brief PowerPoint, progress demo, or report outline. June 24th is the last day to drop for 50% refund."
   - milestone: "Final check-in with advisor & Projects Director"
@@ -37,8 +46,8 @@ summer_2026:
 fall_2026:
   - milestone: "Submit project/thesis form & advisor agreement"
     date: "By September 8, 2026"
-    note: "Aim to submit before the add/drop deadline."
-  - milestone: "Mid-term check-in with advisor & Projects Director"
+    note: "September 8 is the add/drop deadline — the absolute last day. Aim to submit at the start of the semester."
+  - milestone: "Mid-semester check-in with advisor"
     date: "By October 15, 2026"
     note: "Brief PowerPoint, progress demo, or report outline."
   - milestone: "Final check-in with advisor & Projects Director"
@@ -49,4 +58,4 @@ fall_2026:
     note: "Submit completed/signed thesis electronically to grad-affairs@seas.upenn.edu."
   - milestone: "DATS Presentation Day"
     date: "December TBD, 2026"
-    note: "Thesis talks 10:30–11:30 AM, Lunch, Practicum posters 12–1:30 PM."
+    note: "Thesis talks 10:30–11:30 AM, Lunch, Practicum posters 12–1:30 PM. First-semester thesis students present an intermediate update."

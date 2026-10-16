@@ -23,13 +23,15 @@ permalink: /timeline/
 </table>
 </div>
 
-## Summer 2026
+{% if site.data.timeline.next_key and site.data.timeline.next_key != "" %}
+## {{ site.data.timeline.next_semester }}
 
 <div class="table-scroll">
 <table class="timeline-table">
 <thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
 <tbody>
-{% for item in site.data.timeline.summer_2026 %}
+{% assign next_items = site.data.timeline[site.data.timeline.next_key] %}
+{% for item in next_items %}
 <tr>
 <td>{{ item.milestone }}</td>
 <td>{{ item.date }}<div class="note">{{ item.note }}</div></td>
@@ -38,30 +40,21 @@ permalink: /timeline/
 </tbody>
 </table>
 </div>
+{% endif %}
 
-## Fall 2026 *(dates to be posted by August 2026)*
-
-<div class="table-scroll">
-<table class="timeline-table">
-<thead><tr><th scope="col">Milestone</th><th scope="col">Date</th></tr></thead>
-<tbody>
-{% for item in site.data.timeline.fall_2026 %}
-<tr>
-<td>{{ item.milestone }}</td>
-<td>{{ item.date }}<div class="note">{{ item.note }}</div></td>
-</tr>
-{% endfor %}
-</tbody>
-</table>
+<div class="info-box">
+<strong>Accelerated Master's students</strong> still enrolled in their Penn undergrad program follow the undergraduate calendar and their undergraduate home school's policies.
 </div>
+
+*Industry Capstone (DATS 5990-002) application dates are on the [Industry Capstone page]({{ '/industry-capstone/#key-dates' | relative_url }}).*
 
 ## What to Expect at Each Milestone
 
 ### 1. Project/Thesis Submission
-Submit your [Project/Thesis Submission Form](https://forms.gle/fYeA2nXtkgzqLpio6){:target="_blank"} and [signed Advisor Agreement](https://drive.google.com/file/d/19d3zkQQ5TE014Onx_T0yOSQOgVGeGfKO/view){:target="_blank"} before the add/drop deadline. Request DATS 5990 or DATS 9990 in Path@Penn.
+Submit your [Project/Thesis Submission Form](https://forms.gle/fYeA2nXtkgzqLpio6){:target="_blank"} and [signed Advisor Agreement](https://drive.google.com/file/d/19d3zkQQ5TE014Onx_T0yOSQOgVGeGfKO/view){:target="_blank"} before the add/drop deadline, share your proposal with the Projects Director, and request DATS 5990-001 (Practicum) or DATS 9990 (Thesis) in Path@Penn. See [Get Started]({{ '/get-started/#enrollment-steps' | relative_url }}) for the full steps.
 
-### 2. Mid-Term Check-In
-Meet with your faculty advisor and the Projects Director to review progress. Prepare a brief PowerPoint, progress demo, or report outline.
+### 2. Mid-Semester Check-In
+Meet with your faculty advisor to review progress — bring a brief slide deck, progress demo, or report outline. The check-in is primarily with your advisor; loop in the Projects Director as needed.
 
 ### 3. Final Check-In
 Submit your project report to your faculty advisor and the Projects Director before the withdrawal deadline.
@@ -70,5 +63,4 @@ Submit your project report to your faculty advisor and the Projects Director bef
 Submit your completed, signed thesis electronically to [grad-affairs@seas.upenn.edu](mailto:grad-affairs@seas.upenn.edu).
 
 ### 5. DATS Presentation Day
-Thesis students give 5-minute talks. Practicum students present posters. All students upload their presentations/posters to the shared Google Drive folder before the event.
-
+Practicum students present posters. Thesis students give a 5-minute talk on their completed thesis; students in their first thesis semester present an intermediate update on their progress. Before the event, all students upload their slides or poster PDF using the upload links shared each semester.

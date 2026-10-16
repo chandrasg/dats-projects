@@ -19,7 +19,7 @@ full_width: true
 
 <div class="compare-grid three-col">
 <div class="compare-card">
-<span class="tag">DATS 5990</span>
+<span class="tag">DATS 5990-001</span>
 <h3>Practicum</h3>
 <p>An independent study where you lead one or more parts of a research project. Your contribution is similar to that of a co-author on a publication — you lead a distinct piece of the work within a larger collaborative effort.</p>
 <ul>
@@ -27,7 +27,7 @@ full_width: true
 <li><strong>Advisor:</strong> Any Penn faculty member</li>
 <li><strong>Report:</strong> 5–10 pages</li>
 <li><strong>Presentation:</strong> Poster session</li>
-<li><strong>Industry projects:</strong> Allowed with academic product</li>
+<li><strong>Industry projects:</strong> Self-arranged ones allowed, with an academic product</li>
 </ul>
 </div>
 <div class="compare-card industry">
@@ -36,10 +36,10 @@ full_width: true
 <p>A sponsor-proposed project mentored by your industry sponsor and DATS teaching staff, with admission by application and interview.</p>
 <ul>
 <li><strong>Credits:</strong> 1 CU per semester (max 2 total)</li>
-<li><strong>Sponsor:</strong> Industry partner + DATS teaching staff</li>
+<li><strong>Supervision:</strong> Industry sponsor + DATS teaching staff</li>
 <li><strong>Admission:</strong> Application + interviews (GPA ≥ 3.6)</li>
 <li><strong>Report:</strong> Sponsor deliverables + final presentation</li>
-<li><strong>New:</strong> Launching Fall 2026</li>
+<li><strong>New:</strong> Launched Fall 2026</li>
 </ul>
 <a href="{{ '/industry-capstone/' | relative_url }}">Learn more &rarr;</a>
 </div>
@@ -51,13 +51,13 @@ full_width: true
 <li><strong>Credits:</strong> 2 CU (1 CU per semester, two semesters)</li>
 <li><strong>Advisor:</strong> Any Penn faculty member</li>
 <li><strong>Report:</strong> Full thesis (SEAS format)</li>
-<li><strong>Presentation:</strong> 5-minute talk</li>
+<li><strong>Presentation:</strong> Progress update (semester 1), 5-minute talk (semester 2)</li>
 <li><strong>Reader:</strong> Additional Penn faculty reader required</li>
 </ul>
 </div>
 </div>
 
-Both courses count as technical and depth area electives toward the ten required credits for the MSE degree.
+DATS 5990 and DATS 9990 both count as technical and depth area electives toward the ten required credits for the MSE degree.
 
 ## Find What You Need
 

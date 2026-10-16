@@ -13,4 +13,6 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - preview.html
+  - generate_title_page.py
 
