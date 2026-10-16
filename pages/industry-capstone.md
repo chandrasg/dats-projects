@@ -6,7 +6,7 @@ permalink: /industry-capstone/
 
 # Industry Capstone
 
-The Industry Capstone (DATS 5990-002) is a variant of the Practicum in which your project comes from an industry sponsor rather than a Penn faculty advisor. Launched in Fall 2026, it's offered in partnership with Penn Engineering's StAGE (Strategic Advisory Group and Expertise) initiative. Throughout the semester you're mentored by DATS teaching staff — {{ site.data.contacts.project_director.name }} (Faculty Director) and TAs — working alongside your sponsor.
+The Industry Capstone (DATS 5990-002) is a variant of the Practicum in which your project comes from an industry sponsor rather than a Penn faculty advisor. Launched in Fall 2026, it's offered in partnership with Penn Engineering's StAGE (Strategic Advisory Group and Expertise) initiative. Day to day, you work with a **project advisor** — your supervisor at the sponsoring company — who is your primary point of contact. DATS teaching staff ({{ site.data.contacts.project_director.name }}, Faculty Director, and TAs) oversee the course and can be reached by email when needed.
 
 <div class="info-box">
 Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) and Thesis (DATS 9990) are covered on the <a href="{{ '/get-started/' | relative_url }}">Get Started</a> page.
@@ -72,7 +72,7 @@ Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) 
 <tr>
 <td>Who supervises</td>
 <td>Penn faculty advisor</td>
-<td>Industry sponsor + DATS teaching staff</td>
+<td>Project advisor at the sponsor; DATS teaching staff oversee</td>
 <td>Penn faculty advisor + reader</td>
 </tr>
 <tr>
@@ -90,7 +90,7 @@ Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) 
 <tr>
 <td>Cadence</td>
 <td>Mid-semester check-in</td>
-<td>Weekly sponsor check-ins + quarter reports</td>
+<td>Weekly reports to your project advisor + quarter reports</td>
 <td>Mid-semester check-in each semester</td>
 </tr>
 <tr>
@@ -185,10 +185,11 @@ Once you're matched with a sponsor, {{ site.data.contacts.program_manager.name }
 
 ## During the Semester
 
-The Industry Capstone runs on a more structured cadence than the faculty-advised Practicum, designed to keep you, your sponsor, and the teaching staff aligned throughout the semester:
+The Industry Capstone runs on a more structured cadence than the faculty-advised Practicum, designed to keep you and your project advisor aligned throughout the semester:
 
-- **Weekly check-in report** — a report under one page, due at the end of each week, covering your progress, next steps, and roadblocks. It's shared with your sponsor only and graded on good-faith completion.
-- **Ongoing sponsor communication** — regular meetings, calls, or messages with your sponsor beyond the weekly report.
+- **Weekly check-in report** — a report under one page, due at the end of each week, covering your progress, next steps, and roadblocks. It goes to your project advisor, who checks it; it's graded on good-faith completion.
+- **Ongoing communication with your project advisor** — regular meetings, calls, or messages beyond the weekly report. Your project advisor is your primary channel for questions about the work.
+- **Teaching staff** — email the DATS teaching staff when you need them; day-to-day communication runs through your project advisor.
 - **Quarter reports & presentations** — in weeks 4, 8, and 12, in a format set by your sponsor (a slide deck, technical report, or code/methodology documentation). Your sponsor grades these and forwards the grade to teaching staff.
 - **Final deliverables** — these go to your sponsor first: a presentation, a written report (in a format your sponsor specifies), and your final work product (e.g., dashboards, models, insights). Your sponsor then indicates what may be shared with teaching staff, who receive an abbreviated presentation and an abbreviated technical report with sensitive data omitted — plus a roughly one-page personal reflection on your takeaways.
 
@@ -198,7 +199,7 @@ The Industry Capstone runs on a more structured cadence than the faculty-advised
 <table class="timeline-table">
 <thead><tr><th scope="col">Component</th><th scope="col">Weight</th><th scope="col">Notes</th></tr></thead>
 <tbody>
-<tr><td>Weekly check-ins</td><td>10%</td><td>Graded on good-faith completion</td></tr>
+<tr><td>Weekly check-ins</td><td>10%</td><td>Checked by your project advisor; graded on good-faith completion</td></tr>
 <tr><td>Quarter reports &amp; presentations</td><td>30%</td><td>Graded by your sponsor, forwarded to teaching staff</td></tr>
 <tr><td>Final report &amp; presentation</td><td>60%</td><td>Sponsor-specified format; abbreviated versions go to teaching staff</td></tr>
 </tbody>
@@ -212,7 +213,7 @@ The Industry Capstone runs on a more structured cadence than the faculty-advised
 - No regrade requests — stay aligned with your sponsor throughout the semester instead
 
 <div class="info-box warning">
-Communication is the #1 success factor in this course — the structure above (weekly reports to your sponsor, quarter reports) exists to guarantee it.
+Communication is the #1 success factor in this course — the structure above (weekly reports to your project advisor, quarter reports) exists to guarantee it.
 </div>
 
 ## Intellectual Property & Confidentiality {#ip-confidentiality}

@@ -23,7 +23,7 @@ Submit your [Project/Thesis Submission Form](https://forms.gle/fYeA2nXtkgzqLpio6
 Meet with your faculty advisor to review progress — bring a brief slide deck, progress demo, or report outline. The check-in is primarily with your advisor; loop in the Projects Director as needed.
 
 ### 3. Final Check-In
-Submit your project report to your faculty advisor and the Projects Director before the withdrawal deadline.
+Submit your project report — for thesis students in their final semester, a full draft of the thesis — to your faculty advisor and the Projects Director before the withdrawal deadline.
 
 ### 4. Thesis Submission (Thesis students only)
 Submit your completed, signed thesis electronically to [grad-affairs@seas.upenn.edu](mailto:grad-affairs@seas.upenn.edu).

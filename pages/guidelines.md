@@ -73,7 +73,7 @@ Your grade combines your advisor's assessment with the Projects Director's revie
 A thesis requires two course units: 1 CU per semester over two consecutive semesters. You receive a letter grade each semester with deliverables due at the end of each.
 
 ### Advisor Requirements
-Any Penn faculty member can serve as your advisor. You will also need a separate reader who is Penn faculty to review the final thesis.
+Any Penn faculty member can serve as your advisor. You will also need a separate reader who is Penn faculty to review the final thesis. The reader reviews your thesis but doesn't sign the title page. Line one up early — your advisor can help suggest someone.
 
 ### Semester 1: Foundation
 
@@ -85,7 +85,7 @@ The first semester is for building — not finishing. Focus on:
 - **Interim report** — submit a written interim report (typically 5–8 pages) covering your problem statement, background and related work, proposed approach, and any early results
 - **Intermediate update** — present your progress at DATS Presentation Day at the end of the semester
 
-The interim report is graded. It should demonstrate that you have a clear research direction and have made substantive early progress — not that you've finished.
+The interim report and the intermediate update are both graded. They should demonstrate that you have a clear research direction and have made substantive early progress — not that you've finished.
 
 ### Semester 2: Execution and Writing
 
@@ -93,6 +93,7 @@ The second semester is for completing your research and writing your thesis. Key
 
 - **Complete your core analysis** — run experiments, gather results, and interpret findings
 - **Write the full thesis** — following SEAS formatting guidelines
+- **Submit a full draft at the final check-in** — a complete draft goes to your advisor and the Projects Director by the final check-in date on the [Timeline]({{ '/timeline/' | relative_url }})
 - **Present your final work** — 5-minute talk at DATS Presentation Day
 - **Submit** — completed and signed thesis to grad-affairs@seas.upenn.edu
 
@@ -116,7 +117,7 @@ For citations, follow the Chicago Manual of Style, the MLA Handbook, or the appr
 Code should be in a maintained repository with a README sufficient for someone to reproduce your results.
 
 ### Submission
-Submit your completed and signed thesis electronically to [grad-affairs@seas.upenn.edu](mailto:grad-affairs@seas.upenn.edu) by the deadline on the [Timeline]({{ '/timeline/' | relative_url }}). An approved copy also goes to the CIS Master's chair via email.
+Submit your completed and signed thesis electronically to [grad-affairs@seas.upenn.edu](mailto:grad-affairs@seas.upenn.edu) by the deadline on the [Timeline]({{ '/timeline/' | relative_url }}).
 
 ### Presentation
 Thesis students present at DATS Presentation Day in **both semesters**:
@@ -125,7 +126,7 @@ Thesis students present at DATS Presentation Day in **both semesters**:
 - **End of semester 2:** a 5-minute talk on your completed thesis. Practice it at least twice — five minutes is harder to fill well than it sounds.
 
 ### How Grades Are Determined
-Each semester is graded independently. **Semester 1** is judged mainly on the quality and completeness of your interim report, your progress on the research foundations (literature, problem formulation, data), and your advisor's assessment of engagement. **Semester 2** is judged on the quality of the final thesis, your presentation, and your overall contribution. The [Evaluation Rubric](#evaluation-rubric) below lays out the dimensions in detail — thesis work is held to the higher bar across every dimension and is additionally expected to demonstrate a novel contribution.
+Each semester is graded independently. **Semester 1** is judged mainly on the quality and completeness of your interim report, your intermediate update at DATS Presentation Day, your progress on the research foundations (literature, problem formulation, data), and your advisor's assessment of engagement. **Semester 2** is judged on the quality of the final thesis, your presentation, and your overall contribution. The [Evaluation Rubric](#evaluation-rubric) below lays out the dimensions in detail — thesis work is held to the higher bar across every dimension and is additionally expected to demonstrate a novel contribution.
 
 If you fall behind, communicate early — advisors can help recalibrate scope; they cannot help if they don't know there's a problem.
 
@@ -189,7 +190,7 @@ This rubric is a shared tool for **students and advisors**. Use it before each c
 **Track differences:**
 
 - **Practicum (DATS 5990)** emphasizes a well-scoped, well-executed contribution and clear communication. "Proficient" across the board is solid practicum work.
-- **Thesis (DATS 9990)** is held to the "Proficient–Exemplary" bar across every dimension and must additionally demonstrate a **novel contribution** suitable toward a publication. In semester 1, the interim report is assessed mainly on the first three dimensions plus early results.
+- **Thesis (DATS 9990)** is held to the "Proficient–Exemplary" bar across every dimension and must additionally demonstrate a **novel contribution** suitable toward a publication. In semester 1, the interim report and intermediate update are assessed mainly on the first three dimensions plus early results.
 - **Industry Capstone (DATS 5990-002)** uses its own grading structure — see [Grading]({{ '/industry-capstone/#grading' | relative_url }}) on the Industry Capstone page.
 
 ---

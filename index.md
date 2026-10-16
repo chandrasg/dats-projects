@@ -33,10 +33,10 @@ full_width: true
 <div class="compare-card industry">
 <span class="tag">DATS 5990-002</span>
 <h3>Industry Capstone</h3>
-<p>A sponsor-proposed project mentored by your industry sponsor and DATS teaching staff, with admission by application and interview.</p>
+<p>A sponsor-proposed project supervised by a project advisor at the company, with DATS teaching staff overseeing. Admission is by application and interview.</p>
 <ul>
 <li><strong>Credits:</strong> 1 CU per semester (max 2 total)</li>
-<li><strong>Supervision:</strong> Industry sponsor + DATS teaching staff</li>
+<li><strong>Supervision:</strong> Project advisor at the sponsor; DATS staff oversee</li>
 <li><strong>Admission:</strong> Application + interviews (GPA ≥ 3.6)</li>
 <li><strong>Report:</strong> Sponsor deliverables + final presentation</li>
 <li><strong>New:</strong> Launched Fall 2026</li>
