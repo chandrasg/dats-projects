@@ -80,7 +80,7 @@ Your grade combines your advisor's assessment with the Projects Director's revie
 <details class="faq-item">
 <summary>What is the Industry Capstone (DATS 5990-002) and how is it different from the Practicum?</summary>
 <div class="faq-answer">
-The Industry Capstone is a variant of the Practicum where your project comes from an industry sponsor instead of a Penn faculty advisor. You're admitted by application and sponsor interviews rather than an advisor agreement, and the semester runs on a structured cadence — weekly reports to your project advisor at the sponsor (your primary point of contact), plus quarter reports graded by your sponsor. DATS teaching staff oversee the course and can be reached by email when needed. See the <a href="{{ '/industry-capstone/' | relative_url }}">Industry Capstone page</a> for full details.
+The Industry Capstone is a variant of the Practicum where your project comes from an industry sponsor instead of a Penn faculty advisor. You're admitted by application and sponsor interviews rather than an advisor agreement, and the semester runs on a structured cadence — weekly reports to your project advisor at the sponsor (your primary point of contact), plus quarter reports graded by your project advisor. DATS teaching staff oversee the course and can be reached by email when needed. See the <a href="{{ '/industry-capstone/' | relative_url }}">Industry Capstone page</a> for full details.
 </div>
 </details>
 
@@ -94,7 +94,7 @@ Review the posted sponsor projects, then submit your transcript, resume/CV, and 
 <details class="faq-item">
 <summary>Is the Industry Capstone paid?</summary>
 <div class="faq-answer">
-No. The Industry Capstone is for academic credit only, consistent with the program-wide rule that you cannot be paid for a project you're also enrolling for credit. Work is remote from the employer's perspective. Any internship or full-time offer after the capstone is at the sponsor's discretion.
+No. The Industry Capstone is for academic credit only, consistent with the program-wide rule that you cannot be paid for a project you're also enrolling for credit. Work is remote — you don't work on-site at the sponsor. Any internship or full-time offer after the capstone is at the sponsor's discretion.
 </div>
 </details>
 

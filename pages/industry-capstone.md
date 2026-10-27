@@ -6,7 +6,7 @@ permalink: /industry-capstone/
 
 # Industry Capstone
 
-The Industry Capstone (DATS 5990-002) is a variant of the Practicum in which your project comes from an industry sponsor rather than a Penn faculty advisor. Launched in Fall 2026, it's offered in partnership with Penn Engineering's StAGE (Strategic Advisory Group and Expertise) initiative. Day to day, you work with a **project advisor** — your supervisor at the sponsoring company — who is your primary point of contact. DATS teaching staff ({{ site.data.contacts.project_director.name }}, Faculty Director, and TAs) oversee the course and can be reached by email when needed.
+The Industry Capstone (DATS 5990-002) is a variant of the Practicum in which your project comes from an industry sponsor rather than a Penn faculty advisor. Launched in Fall 2026, it's offered in partnership with Penn Engineering's StAGE (Strategic Advisory Group and Expertise) initiative. Two terms are used throughout this page: your **sponsor** is the company that proposes and hosts your project, and your **project advisor** is the person at your sponsor who supervises you day to day — your primary point of contact. DATS teaching staff ({{ site.data.contacts.project_director.name }}, Faculty Director, and TAs) oversee the course and can be reached by email when needed.
 
 <div class="info-box">
 Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) and Thesis (DATS 9990) are covered on the <a href="{{ '/get-started/' | relative_url }}">Get Started</a> page.
@@ -37,7 +37,7 @@ Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) 
 <tr><td>Course</td><td>DATS 5990-002</td></tr>
 <tr><td>Credit</td><td>1 CU per semester; maximum 2 CU of Industry Capstone total</td></tr>
 <tr><td>Compensation</td><td>None — for <a href="{{ '/faq/' | relative_url }}">academic credit only</a></td></tr>
-<tr><td>Location</td><td>Remote, from the employer's perspective</td></tr>
+<tr><td>Location</td><td>Remote — you don't work on-site at the sponsor</td></tr>
 <tr><td>Sponsor sectors</td><td>Technology, robotics &amp; defense, consulting, quant/finance</td></tr>
 <tr><td>First offered</td><td>Fall 2026</td></tr>
 </tbody>
@@ -96,13 +96,13 @@ Looking for the faculty-advised version? The standard Practicum (DATS 5990-001) 
 <tr>
 <td>Final deliverable</td>
 <td>5–10 page report + poster</td>
-<td>Sponsor report + presentation + work product</td>
+<td>Report + presentation + work product for your sponsor</td>
 <td>Full thesis + talk</td>
 </tr>
 <tr>
 <td>Who grades</td>
 <td>Advisor input + Projects Director</td>
-<td>Sponsor grades forwarded to teaching staff</td>
+<td>Project advisor's grades, forwarded to teaching staff</td>
 <td>Advisor input + Projects Director</td>
 </tr>
 <tr>
@@ -147,7 +147,7 @@ Submit your application <a href="{{ site.data.industry.application_url }}" targe
 </li>
 <li>
 <strong>Interview with sponsors</strong><br>
-Round 1 is a phone interview with the sponsor. Round 2 takes place at the employer's HQ or via Zoom. Sponsors select their own candidates.
+Round 1 is a phone interview with the sponsor. Round 2 takes place at the sponsor's HQ or via Zoom. Sponsors select their own candidates.
 </li>
 <li>
 <strong>Accept your match</strong><br>
@@ -155,7 +155,7 @@ Only apply to projects you're prepared to commit to — acceptances are treated 
 </li>
 <li>
 <strong>Align on scope</strong><br>
-Before the semester begins, you, your sponsor, and the teaching staff meet to align on project scope and expectations.
+Before the semester begins, you, your project advisor, and the teaching staff meet to align on project scope and expectations.
 </li>
 <li>
 <strong>Enroll</strong><br>
@@ -190,8 +190,8 @@ The Industry Capstone runs on a more structured cadence than the faculty-advised
 - **Weekly check-in report** — a report under one page, due at the end of each week, covering your progress, next steps, and roadblocks. It goes to your project advisor, who checks it; it's graded on good-faith completion.
 - **Ongoing communication with your project advisor** — regular meetings, calls, or messages beyond the weekly report. Your project advisor is your primary channel for questions about the work.
 - **Teaching staff** — email the DATS teaching staff when you need them; day-to-day communication runs through your project advisor.
-- **Quarter reports & presentations** — in weeks 4, 8, and 12, in a format set by your sponsor (a slide deck, technical report, or code/methodology documentation). Your sponsor grades these and forwards the grade to teaching staff.
-- **Final deliverables** — these go to your sponsor first: a presentation, a written report (in a format your sponsor specifies), and your final work product (e.g., dashboards, models, insights). Your sponsor then indicates what may be shared with teaching staff, who receive an abbreviated presentation and an abbreviated technical report with sensitive data omitted — plus a roughly one-page personal reflection on your takeaways.
+- **Quarter reports & presentations** — in weeks 4, 8, and 12, in a format set by your project advisor (a slide deck, technical report, or code/methodology documentation). Your project advisor grades these and forwards the grade to teaching staff.
+- **Final deliverables** — these go to your project advisor first: a presentation, a written report (in a format your project advisor specifies), and your final work product (e.g., dashboards, models, insights). Your project advisor then confirms what your sponsor allows you to share with teaching staff, who receive an abbreviated presentation and an abbreviated technical report with sensitive data omitted — plus a roughly one-page personal reflection on your takeaways.
 
 ## Grading
 
@@ -200,8 +200,8 @@ The Industry Capstone runs on a more structured cadence than the faculty-advised
 <thead><tr><th scope="col">Component</th><th scope="col">Weight</th><th scope="col">Notes</th></tr></thead>
 <tbody>
 <tr><td>Weekly check-ins</td><td>10%</td><td>Checked by your project advisor; graded on good-faith completion</td></tr>
-<tr><td>Quarter reports &amp; presentations</td><td>30%</td><td>Graded by your sponsor, forwarded to teaching staff</td></tr>
-<tr><td>Final report &amp; presentation</td><td>60%</td><td>Sponsor-specified format; abbreviated versions go to teaching staff</td></tr>
+<tr><td>Quarter reports &amp; presentations</td><td>30%</td><td>Graded by your project advisor, forwarded to teaching staff</td></tr>
+<tr><td>Final report &amp; presentation</td><td>60%</td><td>Format set by your project advisor; abbreviated versions go to teaching staff</td></tr>
 </tbody>
 </table>
 </div>
@@ -210,7 +210,7 @@ The Industry Capstone runs on a more structured cadence than the faculty-advised
 
 - Occasional one-off "special assignments" are required; missing one without a valid excuse is a 10% penalty to your final grade
 - The course is not curved and cannot be taken Pass/Fail
-- No regrade requests — stay aligned with your sponsor throughout the semester instead
+- No regrade requests — stay aligned with your project advisor throughout the semester instead
 
 <div class="info-box warning">
 Communication is the #1 success factor in this course — the structure above (weekly reports to your project advisor, quarter reports) exists to guarantee it.

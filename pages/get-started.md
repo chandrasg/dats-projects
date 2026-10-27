@@ -99,4 +99,4 @@ Don't wait until month two to discover that your data doesn't exist or your appr
 
 **Choose Practicum (DATS 5990) if** you want to contribute meaningfully to a research project (potentially as part of a larger team) or prefer a shorter engagement (one semester, one CU). Industry-based projects are also an option here, as long as they produce an academically evaluable product.
 
-**Choose Industry Capstone (DATS 5990-002) if** you want to work on a company-proposed problem with an industry sponsor, meet the eligibility bar (GPA ≥ 3.6, at least one semester completed), and are ready for a structured weekly cadence. See the [Industry Capstone page]({{ '/industry-capstone/' | relative_url }}) for details and how to apply.
+**Choose Industry Capstone (DATS 5990-002) if** you want to work on a problem proposed by an industry sponsor, meet the eligibility bar (GPA ≥ 3.6, at least one semester completed), and are ready for a structured weekly cadence. See the [Industry Capstone page]({{ '/industry-capstone/' | relative_url }}) for details and how to apply.
